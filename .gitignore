@@ -1,3 +1,30 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# ignore All name files, name folders, and files and folders in any name folder
+/name.log
+/name/file.txt
+/lib/name.log
+
+# ignore Ending with / specifies the pattern is for a folder. Matches all files and folders in any name folder
+/name/file.txt
+/name/log/name.log
+
+# ignore All files with the name.file
+/name.file
+/lib/name.file
+
+# ! specifies a negation or exception. Matches all files and folders in any name folder, except name/secret.log
+!name.file
+
+# Local and Personal Git Ignore Rules
+# It is also possible to ignore files or folders but not show it in the distubuted .gitignore file.
+
+# These kinds of ignores are specified in the .git/info/exclude file. It works the same way as .gitignore but are not shown to anyone else.
+
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub
