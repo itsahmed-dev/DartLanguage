@@ -49,22 +49,6 @@ void main() {
 /// Example 3:
 import 'dart:io';
 
-// Sinle line comments:
-//[prompt] is a class and this is a line comment.
-// Notice there isn't any link between calss [prompt] to
-// the comment which you can notice below in document commentpart
-
-/// Document Comments:
-/// [prompt] is a class and this is Document comment
-/// WoW I've figured it out what a document comment
-/// is acutally. Great!
-
-/*
-  Multiline comments:
-  These are multi-line comments. There isn't any connection
-  between class [prompt] and program below
-*/
-
 String prompt(String promptText) {
   print(promptText);
   String? answer = stdin.readLineSync();
