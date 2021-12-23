@@ -17,4 +17,8 @@ void main() {
   int a = 10;
   int b = 20;
   print('The sum of $a and $b is ${a + b}');
+  // Interpolation works on Strings and ints as well like so
+  String name = "Ahmed";
+  int age = 30;
+  print('My name is $name and my age is $age');
 }
