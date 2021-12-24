@@ -13,7 +13,4 @@ void main() {
   } else {
     print('$age is a String');
   }
-  if (name as String) {
-    print('$name as String');
-  }
 }
