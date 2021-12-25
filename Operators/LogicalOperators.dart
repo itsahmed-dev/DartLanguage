@@ -8,10 +8,12 @@ void main(List<String> args) {
   print(andOperator);
 
   // OR Operator '||'
+  // ignore: dead_code
   var orOperator = boolTrue || boolFalse;
   print(orOperator);
 
   // NOT Operator '!'
+  // ignore: dead_code
   var notOperator = !(boolTrue || boolFalse);
   print(notOperator);
 }
