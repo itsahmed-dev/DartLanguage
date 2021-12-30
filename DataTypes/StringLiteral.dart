@@ -20,10 +20,17 @@ void main() {
   // example of a long string literal and how we should write it
   String s5 = 'This is a very long String Literal to show how '
       'it should be written in Dart Programming Language';
+  // example of a multi-line String using triple quotes
+  String s6 = '''
+  This is
+  an example of
+  multi-line String in Dart
+  ''';
   print(x);
   print(p);
   print(s);
   print(isCool);
   print(s1 + s2 + s3 + s4);
   print(s5);
+  print(s6);
 }
