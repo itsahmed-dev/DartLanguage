@@ -1,3 +1,3 @@
 # DartPrograms
 
-Dart Programming Language Programs for Practice.
+Dart Programming Language Example Programs for Practice.
