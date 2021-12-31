@@ -1,11 +1,12 @@
+// There are two types of Constants in Dart
 void main() {
-  // final
+  // 1. final
   final cityName = 'Mirpur';
   //	name = 'Ahmed';     // Throws an error
 
   final String countryName = 'Pakistan';
 
-  // const
+  // 2. const
   const pi = 3.14;
   const double gravity = 9.8;
 
