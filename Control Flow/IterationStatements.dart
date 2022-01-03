@@ -5,12 +5,26 @@ void main() {
     print(counter);
   }
 
-  // for in loop
-  print('for in loop in Dart');
+  // for-in loop example: 1
+  print('for-in loop in Dart');
   var counter = [1, 2, 3, 4, 5];
   // ? var ctr ?
   for (var ctr in counter) {
     print(ctr);
+  }
+
+  // for-in loop example: 2
+  var planets = [
+    'Mercury',
+    'Venus',
+    'Earth',
+    'Mars',
+    'Saturn',
+    'Uranus',
+    'Neptune'
+  ];
+  for (String planet in planets) {
+    print(planet);
   }
 
   // while loop
