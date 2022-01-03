@@ -1,8 +1,24 @@
 void main() {
-  // for loop
+  // for loop example: 1
   print('for Loop in Dart');
   for (int counter = 1; counter <= 5; counter++) {
     print(counter);
+  }
+
+  // for loop example: 2
+  print('Even numbers between 0 and 10');
+  for (var i = 0; i <= 10; i++) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
+
+  // for loop example: 3
+  print('Odd numbers between 0 and 10');
+  for (var i = 0; i <= 10; i++) {
+    if (i % 2 == 1) {
+      print(i);
+    }
   }
 
   // for-in loop example: 1
