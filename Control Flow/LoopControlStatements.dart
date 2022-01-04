@@ -1,38 +1,71 @@
 void main() {
-  // Loop countontrol Statements in Dart
-  print('Loop countontrol Statements');
+// Loop Control Statements in Dart
+  print('Loop Control Statements in Dart');
 
   // break statement
-  print('break statement:');
+  print('Break Statement:');
   int count = 1;
-  while (count <= 10) {
+  while (count <= 5) {
     print(count);
     count++;
-    if (count > 5) {
+    if (count > 3) {
       break;
     }
   }
-  // continue statement
-  print('continue statement:');
-  int count1 = 1;
-  while (count1 <= 5) {
-    print(count1);
-    count1++;
-    if (count1 == 5) {
-      print('continue statement here');
+
+  // break statement with loop labels
+  print('Break Statament with Loop Lables: ');
+  outerLoop:
+  for (var i = 1; i <= 3; i++) {
+    for (var j = 1; j <= 3; j++) {
+      print('$i $j');
+      if (i == 2 && j == 2) {
+        break outerLoop;
+      }
+    }
+  }
+
+  // continue statement example 1
+  print('Dart Continue Statement Example: 1');
+  int counter = 1;
+  while (counter <= 5) {
+    print(counter);
+    counter++;
+    if (counter == 3) {
+      print('Continue');
       continue;
     }
   }
 
   // continue statement example 2
-  var count2 = 0;
-  print("Dart Continue Statement");
-  while (count2 < 10) {
-    count2 = count2 + 1;
-    if (count2 == 5) {
-      print("5 is skipped");
+  var counter2 = 0;
+  print("Dart Continue Statement Example: 2");
+  while (counter2 < 5) {
+    counter2 = counter2 + 1;
+    if (counter2 == 3) {
+      print("Skipped");
       continue;
     }
-    print('Count is ${count2}');
+    print('Count is ${counter2}');
+  }
+
+  // continue statement example 3
+  print('Dart Continue Statement Example: 3');
+  print('Odd Numbers');
+  for (var k = 1; k <= 10; k++) {
+    if (k % 2 == 0) {
+      continue;
+    }
+    print(k);
+  }
+
+  // continue statement example 4
+  print('Dart Continue Statement Example: 4');
+  print('Even Numbers');
+  for (var l = 1; l <= 10; l++) {
+    if (l % 2 == 1) {
+      continue;
+    }
+    print(l);
   }
 }
