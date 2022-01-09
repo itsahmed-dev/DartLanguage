@@ -3,6 +3,7 @@
 
 # ignore ALL files in ANY directory named temp
 temp/
+.vscode/
 
 # ignore All name files, name folders, and files
 # and folders in any name folder
