@@ -1,18 +1,65 @@
 void main() {
+  [1, 2, 3]; // Literals
+
+  print('Printing a List');
+  print(['a', 'b', 'c']);
+  print(''); // Line-Break
+
   // List Initialization
+  print('Initializing a List');
+
+  // Example: 1
   var list = [1, 2, 3];
-  print('List of $list');
-  print(list);
-  // using add() method to add value to the list
-  print('List of $list after using add method');
-  list.add(4);
-  print(list);
-  // using remove() method to remove value from the list
-  print('List of $list after using remove method');
-  list.remove(1);
-  print(list);
+  print('Initialing a List of integers with var $list');
+
+  // Example: 2
+  List list2 = <String>['aa', 'bb', 'cc'];
+  print('Initializing a String List $list2');
+
+  // Example: 3
+  List<String> list3 = <String>['aa', 'bb', 'cc'];
+  print('Initializing a String List with another method $list3');
+
+  // Example: 4
+  List list4 = [];
+  print('Initialing an Empty List $list4');
+  print(''); // Line-Break
+
+  // Using add() method to add value to the list
+  print('Empty List $list4 after using add() method');
+  list4.add(1);
+  list4.add(2);
+  list4.add(3);
+  list4.add(4);
+  print(list4);
+  print(''); // Line-Break
+
+  // Using remove() method to remove value from the list
+  print('List of $list4 after using remove() method');
+  list4.remove(4);
+  print(list4);
+  print(''); // Line-Break
+
+  // Using insert() method to a value into the list
+  print('List of $list4 after using insert() method');
+  list4.insert(3, 4);
+  print(list4);
+  print(''); // Line-Break
+
   // Updating the list
-  print('List of $list after updating');
-  list[2] = 5;
-  print(list);
+  print('List of $list4 after Updating it');
+  list4[3] = 5;
+  print(list4);
+  print(''); // Line-Break
+
+  // Accessing an item in the list
+  print('Accessing an item from $list4 by index');
+  var accessing = list4[0];
+  print('Item at Index Position 0 is $accessing');
+
+  // Updating an item in the list
+  print('Accessing last item from $list4');
+  int last = list4.length - 1;
+  var accessLast = list4[last];
+  print('Last Item in $list4 is $accessLast');
 }
