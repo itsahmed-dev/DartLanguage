@@ -32,7 +32,8 @@ void main() {
   print('$BigNum is bigger number');
 
   // Example 5
-  String name = 'Ahmed';
+  String? name;
+  // name = 'Ahmed';
   String userName = name ?? 'Guest';
   print('The user is: $userName');
 }
