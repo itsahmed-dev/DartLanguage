@@ -17,7 +17,7 @@ void main() {
   print('Initializing a String List $list2');
 
   // Example: 3
-  List<String> list3 = <String>['aa', 'bb', 'cc'];
+  List<String> list3 = <String>['aaa', 'bbb', 'ccc'];
   print('Initializing a String List with another method $list3');
 
   // Example: 4
@@ -56,10 +56,21 @@ void main() {
   print('Accessing an item from $list4 by index');
   var accessing = list4[0];
   print('Item at Index Position 0 is $accessing');
+  print(''); // Line-Break
 
-  // Updating an item in the list
+  // Accessing last item in the list
   print('Accessing last item from $list4');
   int last = list4.length - 1;
   var accessLast = list4[last];
   print('Last Item in $list4 is $accessLast');
+  print(''); // Line-Break
+
+  // Loop inside list
+  print('for loop in the List');
+  List names = [
+    'Ahmed',
+    'Ali',
+    for (var i = 1; i <= 3; i++) 'Abdullah',
+  ];
+  print(names);
 }
