@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
   Employee emp = new Employee('EMP001');
 }
