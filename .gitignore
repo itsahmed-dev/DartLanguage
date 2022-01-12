@@ -20,6 +20,8 @@ temp/
 /name.file
 /lib/name.file
 
+/ObjectOriented/ThisKeyword.dart
+
 # ! specifies a negation or exception. Matches all files
 # and folders in any name folder, except name/secret.log
 !name.file
