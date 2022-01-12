@@ -11,6 +11,10 @@ void main() {
   // exponents are also double data type
   double exponent = 1.42e5;
   print(exponent);
+
+  // Integers can also be stored as double data type
+  double interger = 10;
+  print(interger);
   print(''); // Line-Break
 
   // Interpolation also works on ints and doubles as well like so
