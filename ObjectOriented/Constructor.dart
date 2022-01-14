@@ -1,17 +1,18 @@
 // ignore_for_file: unused_local_variable
 
 // Students Class Example
-class Students {
+class Student {
   int? id;
   String? name;
 
-  Students(int id, String name) {
-    print('This is the body of defualt constructor in Student class');
-    print('The ID is: $id and the Student name is: $name');
-  }
+  // Default Constructor & Parameterized Constructor cannot be in same Class
+
+  Student(this.id, this.name); // Parameterized Constructor
+
+  Student.CustomConstructor(this.id, this.name); // Named Constructor
 
   studying() {
-    return studying;
+    return 'studying';
   }
 }
 
@@ -49,7 +50,20 @@ class NamedCon {
 }
 
 void main() {
-  var student1 = Students(786, 'Ahmed');
+  var student1 = Student(786, 'Ahmed');
+  print(
+      'ID: ${student1.id} The student ${student1.name} is ${student1.studying()}');
+  print(''); // Line-Break
+
+  var student2 = Student(787, 'Ali');
+  print(
+      'ID: ${student2.id} The student ${student2.name} is ${student2.studying()}');
+  print(''); // Line-Break
+
+  var student3 = Student.CustomConstructor(789, 'Adnan');
+  print(
+      'ID: ${student3.id} The student ${student3.name} is ${student3.studying()}');
+  print(''); // Line-Break
 
   print('Dart Constructor Example');
   var emp = Employee('EP001');
