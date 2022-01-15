@@ -48,6 +48,13 @@ using triple single quotes
   print('My name is $firstName$lastName');
   print(''); // line-break
 
+  // Example of String Interpolation value being stored in a variable
+  String l = 'A';
+  int n = 1;
+  String s8 = '$l$n';
+  print(s8);
+  print(''); // line-break
+
   // Get the length of String using Concatenation
   // .toString() is a method to convert int to String
   print('Character length of my Last name in Unconventional Way is ' +
