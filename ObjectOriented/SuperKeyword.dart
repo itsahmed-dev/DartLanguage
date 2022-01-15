@@ -38,6 +38,23 @@ class SubClass2 extends SuperClass2 {
   }
 }
 
+// Using Super Keyword with Constructor
+
+// Parent Class
+class Parent {
+  Parent() {
+    print("This is a Super Class Constructor");
+  }
+}
+
+// Child Class with Super Keyword
+class Child extends Parent {
+  Child() : super() // Calling Super Class Constructor
+  {
+    print("This is a Sub Class Constructor");
+  }
+}
+
 // Another example
 
 // SuperClass Car
@@ -69,6 +86,11 @@ void main() {
   print('Invoking Parent Class Method without Super keyword');
   var obj3 = SubClass2();
   obj3.printMsg();
+
+  print('Using Super Keyword with Constructor\n');
+  // Calling Constructor from Parent and Child Classes
+  Child();
+  print(''); // Line-Break
 
   // Creating Object of SubClass
   var b = Bike();
