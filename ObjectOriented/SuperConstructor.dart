@@ -8,18 +8,18 @@ class SubClass extends ParentClass {
   SubClass() {
     /* Compiler implicitly adds super() here as the
 	  first statement of this constructor. */
-    print('Constructor of Sub Class');
+    print('Constructor of SubClass');
   }
 
   display() {
-    print('Sub Class Method');
+    print('Method of SubClass');
   }
 }
 
 class ParentClass2 {
   //parameterized constructor
   ParentClass2(String str) {
-    print('Parameterized Cconstructor Of Parent Class 2');
+    print('Parameterized Constructor Of Parent Class 2');
     print(str);
   }
 }
@@ -30,7 +30,7 @@ class SubClass2 extends ParentClass2 {
   }
 
   display() {
-    print('Sub Class 2 Method');
+    print('Method of Sub Class 2');
   }
 }
 
@@ -60,26 +60,27 @@ class Employee extends Person {
 }
 
 void main() {
-  print('Dart Implicit Super Constructor Example');
+  print('Dart Implicit Super Constructor Example\n');
   /* Creating object using default constructor. This
   will invoke sub class constructor, which will 
 	invoke parent class constructor */
-  SubClass obj = new SubClass();
+  var obj = SubClass();
   //Calling sub class method
   obj.display();
 
-  print('');
+  print(''); // Line-Break
 
-  print('Dart Parameterized Super Constructor Example');
-  SubClass2 obj2 = new SubClass2();
+  print('Dart Parameterized Super Constructor Examples\n');
+  var obj2 = SubClass2();
   //Calling sub class 2 method
   obj2.display();
 
-  print('');
+  print(''); // Line-Break
 
-  print("Dart Super Constructor Example");
-  Person p = new Person("Ahmed", 30);
+  print("Dart Super Constructor Example\n");
+  var p = Person("Ahmed", 30);
   p.showPerInfo();
-  Employee e = new Employee("Ali", 25, 25000);
+  print(''); // Line-Break
+  var e = Employee("Ali", 25, 25000);
   e.showEmpInfo();
 }
