@@ -33,6 +33,8 @@ class Greeting {
 }
 
 void main() {
+  // Creating Class Objects
+
   // Example 1
   var student1 = Student();
   student1.id = 786;
@@ -49,7 +51,6 @@ void main() {
   print(''); // Line-Break
 
   // Example 2
-  // Creating a Class Object
   var emp = Employee();
 
   // Accessing Instance Variable and Functions
