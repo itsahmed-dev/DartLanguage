@@ -5,17 +5,13 @@ class Student {
   String? name; // Instance Variable
 
   // Custom Getter and Setter
-  double? percent;
+  double? _percent; //  Private Instance Variable to its own library
 
-  set percentage(double marks) {
-    // Instance Variable with custom Setter
-    percent = (marks / 750) * 100;
-  }
+  // Instance Variable with custom Setter
+  set percentage(double marks) => _percent = (marks / 750) * 100;
 
-  double get percentage {
-    // Instance Variable with custom Getter
-    return percent!;
-  }
+  // Instance Variable with custom Getter
+  double get percentage => _percent!;
 }
 
 void main() {
