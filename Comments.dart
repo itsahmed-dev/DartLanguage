@@ -8,7 +8,7 @@
 
 /*
   Multiline comments:
-  It's a multi-line comments.
+  It's a Multi-Line Comment.
 */
 
 /**Document Comments 1:
