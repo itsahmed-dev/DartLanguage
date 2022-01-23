@@ -1,4 +1,6 @@
-void main(List<String> args) {
+// Logical Operators
+
+void main() {
   // Variable Declaration
   bool boolTrue = true;
   bool boolFalse = false;
