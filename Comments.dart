@@ -3,7 +3,7 @@
 //? Queries: Leave Questions
 //  TODO: Pending Tasks
 
-// Sinle Line Comments:
+// Single Line Comments:
 // This is a Single Line Comment
 
 /*
@@ -12,12 +12,12 @@
 */
 
 /**Document Comments 1:
- * [main] Funtion 
+ * [main] Function 
  */
 
 /// Document Comments 2:
-/// [main] is a funtion and this is Document comment
-/// Notice that main funtion in brackets above corresponds to main funtion below
+/// [main] is a function and this is Document comment
+/// Notice that main function in brackets above corresponds to main function below
 /// That's what makes document comments different.
 
 void main() {

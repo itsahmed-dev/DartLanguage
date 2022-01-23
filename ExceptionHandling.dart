@@ -9,8 +9,8 @@ void main() {
   }
   print(''); // Line-Break
 
-  // catch clasue example:1
-  print('catch clasue: ');
+  // catch clause example:1
+  print('catch clause: ');
   try {
     int result = 12 ~/ 0;
     print(result);
@@ -37,12 +37,12 @@ void main() {
   } catch (e) {
     print('The exception thrown is $e');
   } finally {
-    print('This is finally clause and is always excuted');
+    print('This is finally clause and is always executed');
   }
   print(''); // Line-Break
 
-  // catch clasue example:2
-  print('another catch clasue: ');
+  // catch clause example:2
+  print('another catch clause: ');
   String input = '3,14';
   try {
     double number = double.parse(input);
