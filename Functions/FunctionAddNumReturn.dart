@@ -1,20 +1,20 @@
 /*
-/// Excaple 1:
-double addNumers(double num1, double num2) {
+/// Example 1:
+double addNumbers(double num1, double num2) {
   return num1 + num2;
 }
 
 void main() {
-  print(addNumers(5, 10));
+  print(addNumbers(5, 10));
 }
 */
-/// Excaple 2:
-double addNumers(double num1, double num2) {
-  // return statment should be last statement in the funtion.
+/// Example 2:
+double addNumbers(double num1, double num2) {
+  // return statement should be last statement in the function.
   return num1 + num2;
 }
 
 void main() {
-  double result = addNumers(5, 10);
+  double result = addNumbers(5, 10);
   print(result);
 }

@@ -6,6 +6,6 @@ sayHi(int i) {
 }
 
 void main() {
-  print('Recursive Funtion: ');
+  print('Recursive function: ');
   sayHi(5);
 }

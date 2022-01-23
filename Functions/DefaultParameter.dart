@@ -12,5 +12,5 @@ defaultNameParameter(p1, [dnp = 10]) {
 
 defaultPositionalParameter(p2, {dpp = 20}) {
   print('Parameter: $p2');
-  print('Default Postional Parameter: $dpp');
+  print('Default Positional Parameter: $dpp');
 }

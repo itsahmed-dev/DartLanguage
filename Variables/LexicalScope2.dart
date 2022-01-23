@@ -4,10 +4,10 @@ bool topLevel = true;
 void main() {
   bool insideMain = true;
 
-  myFuntion() {
+  myfunction() {
     bool insideFunction = true;
 
-    myNestedFuntion() {
+    myNestedfunction() {
       bool insideNestedFunction = true;
 
       assert(topLevel);

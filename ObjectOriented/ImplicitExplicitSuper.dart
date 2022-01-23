@@ -18,7 +18,7 @@ class Cat extends Vertebrate {
 
 class Vertebrate2 {
   Vertebrate2(String action) {
-    print('Verterbrate is: $action');
+    print('Vertebrate is: $action');
   }
 }
 

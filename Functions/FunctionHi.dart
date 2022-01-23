@@ -1,10 +1,10 @@
-// Created funtion to print username
+// Created function to print username
 
 void sayHi() {
   print('Hi Ahmed');
 }
 
 void main() {
-  // Calling the funtion above
+  // Calling the function above
   sayHi();
 }

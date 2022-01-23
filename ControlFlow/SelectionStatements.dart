@@ -34,8 +34,8 @@ void main() {
     print('Invalid Input');
   }
 
-  // case, swtich and break statement
-  // Note: variable used in switch-case statments can only be int or String
+  // case, switch and break statement
+  // Note: variable used in switch-case statements can only be int or String
   String Grade = 'A';
   switch (Grade) {
     case 'A+':

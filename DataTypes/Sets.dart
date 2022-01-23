@@ -18,7 +18,7 @@ void main() {
   print(''); // Line-Break
 
   // Spread Operator
-  print('Combing Sets using ...Spread Operaotr');
+  print('Combing Sets using ...Spread Operator');
   var abc = {'a', 'b', 'c'};
   var num = {1, 2, 3, ...abc};
   print(num);

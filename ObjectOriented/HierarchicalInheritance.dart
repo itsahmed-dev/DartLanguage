@@ -4,8 +4,8 @@
 // More than one classes have the same parent class
 
 class Parent {
-  void parentFuntion() {
-    print('This is Funtion in Parent Class');
+  void parentFunction() {
+    print('This is Function in Parent Class');
   }
 }
 
@@ -25,8 +25,8 @@ void main() {
   print('Hierarchical Inheritance\n');
   Child()
     ..display1()
-    ..parentFuntion();
+    ..parentFunction();
   Child2()
     ..display2()
-    ..parentFuntion();
+    ..parentFunction();
 }

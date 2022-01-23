@@ -33,7 +33,7 @@ void main() {
   String doubleQ2 = "It's easy with double quotes";
   print(doubleQ2);
 
-  // Adding Dollar Sign $ along with Excape Character
+  // Adding Dollar Sign $ along with Escape Character
   print('Displaying Dollar Sign with Escape Character');
   String dollarSign = "The price is \$10";
   print(dollarSign);
@@ -85,8 +85,8 @@ using triple single quotes
   // value being stored in a variable
   print('String Interpolation of Variables');
   String letterA = 'A';
-  int nunberOne = 1;
-  String stringInterpolation = '$letterA$nunberOne';
+  int numberOne = 1;
+  String stringInterpolation = '$letterA$numberOne';
   print(stringInterpolation);
 
   // Get the length of String using Concatenation
@@ -99,7 +99,7 @@ using triple single quotes
       // so we do it like this
       'Character length of Last name in Dart Way is ${lastName.length}');
 
-  // Interpolation works on Strings and ints as well like so
+  // Interpolation works on Strings and integers as well like so
   print('Interpolation of String and Number');
   String name = "Ahmed";
   int age = 30;

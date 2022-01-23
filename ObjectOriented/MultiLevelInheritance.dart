@@ -5,14 +5,14 @@
 
 // Example 1
 class Parent {
-  void parentFuntion() {
-    print('This is Funtion in Parent Class');
+  void parentFunction() {
+    print('This is Function in Parent Class');
   }
 }
 
 class Child extends Parent {
-  void childFuntion() {
-    print('This is Funtion in Child1 Class');
+  void childFunction() {
+    print('This is Function in Child1 Class');
   }
 }
 
@@ -22,10 +22,10 @@ class Child2 extends Child {}
 void main() {
   print('Example 1:\n');
 
-  // Child2 will inherit funtions inside Child & Parent Class
+  // Child2 will inherit functions inside Child & Parent Class
   var output = Child2();
-  output.parentFuntion();
-  output.childFuntion();
+  output.parentFunction();
+  output.childFunction();
 
   print(''); // Line-Break
 

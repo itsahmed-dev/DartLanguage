@@ -3,6 +3,6 @@ void main() {
 }
 
 Dart() {
-  var message = "Returned Value from Dart Funtion";
+  var message = "Returned Value from Dart function";
   return message;
 }

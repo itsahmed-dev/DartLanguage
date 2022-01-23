@@ -67,9 +67,9 @@ class Bike extends Car {
   int speed = 110;
 
   void display() {
-    // Accessing Varible of the SuperClass Car with super keyword
+    // Accessing Variable of the SuperClass Car with super keyword
     print('The Speed of Car: ${super.speed}');
-    // Accessing Varible of the SubClass Bike without super keyword
+    // Accessing Variable of the SubClass Bike without super keyword
     print('The Speed of Bike: ${speed}');
   }
 }

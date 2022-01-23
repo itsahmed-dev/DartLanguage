@@ -22,7 +22,7 @@ void main() {
   print('$a * $b = ${a * b}\n');
 
   // Division
-  print('Normal Division'); // Resuslt can be Double
+  print('Normal Division'); // Result can be Double
   print('$a / $b = ${a / b}\n');
 
   // Integer Division

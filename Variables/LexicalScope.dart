@@ -2,17 +2,17 @@ int a = 1;
 void main() {
   print('Value of Global Variable inside main(): $a');
 
-  myFuntion() {
+  myfunction() {
     int a = 2;
-    print('Value of Variable inside myFuntion(): $a');
+    print('Value of Variable inside myfunction(): $a');
 
-    myNestedFuntion() {
+    myNestedfunction() {
       int a = 3;
-      print('Value of Variable inside myNestedFuntion(): $a');
+      print('Value of Variable inside myNestedfunction(): $a');
     }
 
-    myNestedFuntion();
+    myNestedfunction();
   }
 
-  myFuntion();
+  myfunction();
 }

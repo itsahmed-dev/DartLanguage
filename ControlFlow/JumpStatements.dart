@@ -14,7 +14,7 @@ void main() {
   }
 
   // break statement with loop labels
-  print('Break Statament with Loop Lables: ');
+  print('Break Statement with Loop Labels: ');
   outerLoop:
   for (var i = 1; i <= 3; i++) {
     for (var j = 1; j <= 3; j++) {

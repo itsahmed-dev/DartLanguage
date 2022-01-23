@@ -41,7 +41,7 @@ class Dog extends Animals {
   String? breed;
 
   void eat() {
-    // Method Overrriding
+    // Method Overriding
     print('Dog is Eating...');
     //  Calling Method Overridden
     super.eat();
