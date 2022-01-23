@@ -1,15 +1,21 @@
-// Sinle line comments:
-//[main] is a funtion in program below and this is a line comment.
-// Notice there isn't any link between funtion [main] to
-// the program below
+//* Highlights: Better Comments Enabled
+//! Alerts: Alert Messages
+//? Queries: Leave Questions
+//  TODO: Pending Tasks
+
+// Sinle Line Comments:
+// This is a Single Line Comment
 
 /*
   Multiline comments:
-  These are multi-line comments. There isn't any connection
-  between funtion [main] and program below
+  It's a multi-line comments.
 */
 
-/// Document Comments:
+/**Document Comments 1:
+ * [main] Funtion 
+ */
+
+/// Document Comments 2:
 /// [main] is a funtion and this is Document comment
 /// Notice that main funtion in brackets above corresponds to main funtion below
 /// That's what makes document comments different.
