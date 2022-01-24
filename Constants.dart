@@ -11,7 +11,8 @@ void main() {
   const double gravity = 9.8;
 
   // Exercise
-
+  // ignore: todo
+  // TODO: Figure it out
   const firstName = 'Muhammad';
   const lastName = 'Ahmed';
   var fullName = '$firstName $lastName';
