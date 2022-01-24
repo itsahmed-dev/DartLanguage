@@ -7,6 +7,10 @@
 ##### Heading Level 5
 ###### Heading Level 6
 
+## Heading ID
+
+### My Great Heading {#custom-id}
+
 # Text
 
 This is a simple text.
@@ -40,9 +44,50 @@ __Bold__
 
 **This text is _Italics_ and Bold**
 
-\**Bold*\*  <!-- Escaping -->
-
 ~~StrickThrough~~
+
+# Emoji
+
+That is so funny! :joy:
+
+# Escaping Characters
+
+\* Without the backslash, this would be a bullet in an unordered list. As
+
+* This is a bullet in an unordered list.
+
+## Characters You Can Escape
+
+You can use a backslash to escape the following characters:
+
+| Character | Name                |
+| ----------| ------------------- |
+| \         | backslash           |
+| `         | backtick            |
+| *         | asterisk            |
+| _         | underscore          |
+| {}        | curly braces        |
+| []        | brackets            |
+| <>        | angle brackets      |
+| ()        | parentheses         |
+| #         | pound sign          |
+| +         | plus sign           |
+| -         | minus sign (hyphen) |
+| .         | dot                 |
+| !         | exclamation mark    |
+| |         | pipe                |
+
+# Highlight
+
+I need to highlight these ==very important words==.
+
+# Subscript
+
+	H~2~O
+
+# Superscript
+
+X^2^
 
 # List
 
@@ -67,9 +112,27 @@ __Bold__
       * Nested B
       * Nested C
 
++ One
++ Two
++ Three
+
+or
+
 - One
 - Two
 - Three
+
+## Definition List
+
+term
+: definition
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
 
 # Code Line
 
@@ -81,9 +144,34 @@ __Bold__
 
 This site was built using [GitHub Pages](http://iahmed.space/).
 
+## URLs and Email Addresses
+
+<https://www.markdownguide.org>
+
+<mail@example.com>
+
+## Disabling Automatic URL Linking
+
+`http://www.example.com`
+
 # BlockQuotes
 
 > This is a Quote
+
+## Nested BlockQuotes
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+## BlockQuotes with Other Elements
+
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.
 
 # Horizontal Rules
 
@@ -95,13 +183,13 @@ ___
 
 ![MarkDown](https://markdown-here.com/img/icon256.png)
 
-Dark Theme	![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
+[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
 
 # GitHub Flavored Markdown
 
 GitHub Flavored Markdown (GFM)
 
-## Code Block
+## Fenced Code Block
 
 Some basic Git commands are:
 ```
@@ -129,6 +217,12 @@ void main() {
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+### Table Alignment
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 
 ## Task List
 
