@@ -50,34 +50,8 @@ __Bold__
 
 That is so funny! :joy:
 
-# Escaping Characters
 
-\* Without the backslash, this would be a bullet in an unordered list. As
-
-* This is a bullet in an unordered list.
-
-## Characters You Can Escape
-
-You can use a backslash to escape the following characters:
-
-| Character | Name                |
-| ----------| ------------------- |
-| \         | backslash           |
-| `         | backtick            |
-| *         | asterisk            |
-| _         | underscore          |
-| {}        | curly braces        |
-| []        | brackets            |
-| <>        | angle brackets      |
-| ()        | parentheses         |
-| #         | pound sign          |
-| +         | plus sign           |
-| -         | minus sign (hyphen) |
-| .         | dot                 |
-| !         | exclamation mark    |
-| |         | pipe                |
-
-# Highlight
+<!-- # Highlight
 
 I need to highlight these ==very important words==.
 
@@ -87,7 +61,7 @@ I need to highlight these ==very important words==.
 
 # Superscript
 
-X^2^
+X^2^ -->
 
 # List
 
@@ -144,6 +118,8 @@ Second Term
 
 This site was built using [GitHub Pages](http://iahmed.space/).
 
+[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
+
 ## URLs and Email Addresses
 
 <https://www.markdownguide.org>
@@ -182,8 +158,6 @@ ___
 # Images
 
 ![MarkDown](https://markdown-here.com/img/icon256.png)
-
-[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
 
 # GitHub Flavored Markdown
 
@@ -224,25 +198,38 @@ void main() {
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
 
+# Escaping Characters
+
+\* Without the backslash, this would be a bullet in an unordered list. As
+
+* This is a bullet in an unordered list.
+
+## Characters You Can Escape
+
+You can use a backslash to escape the following characters:
+
+| Character | Name                |
+| ----------| ------------------- |
+| \         | backslash           |
+| `         | backtick            |
+| *         | asterisk            |
+| _         | underscore          |
+| {}        | curly braces        |
+| []        | brackets            |
+| <>        | angle brackets      |
+| ()        | parentheses         |
+| #         | pound sign          |
+| +         | plus sign           |
+| -         | minus sign (hyphen) |
+| .         | dot                 |
+| !         | exclamation mark    |
+| |         | pipe                |
+
+
 ## Task List
 
 * [x] Task 1
 * [ ] Task 2
-
-## Footnotes
-
-Here is a simple footnote[^1].
-
-A footnote can also have multiple lines[^2].  
-
-You can also use words, to fit your writing style more closely[^note].
-
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
-[^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
 
 ## Comments
 
@@ -263,3 +250,18 @@ This is how you comment in MarkDown :Wink:
 [//]: <> (This is also a comment.)
 
 [//]: # (This may be the most platform independent comment)
+
+## Footnotes
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
