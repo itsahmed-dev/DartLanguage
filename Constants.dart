@@ -10,6 +10,14 @@ void main() {
   const pi = 3.14;
   const double gravity = 9.8;
 
+  // Exercise
+
+  const firstName = 'Muhammad';
+  const lastName = 'Ahmed';
+  var fullName = '$firstName $lastName';
+  final fullNameLength = fullName.length.toString();
+  fullName = 'M Ahmed Chowhan';
+
   print(cityName);
   print(countryName);
   print(pi);
