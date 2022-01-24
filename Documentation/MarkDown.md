@@ -1,13 +1,34 @@
-<!-- Headings -->
+# Headings
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
+##### Heading Level 5
+###### Heading Level 6
 
-<!-- Emphasis -->
+# Text
+
+This is a simple text.
+
+This
+a
+just
+one
+line
+of
+text.
+
+but  
+not  
+this  
+because  
+of  
+two  
+space  
+endings.
+
+# Emphasis
 
 *Italics*
 _Italics_
@@ -15,13 +36,16 @@ _Italics_
 **Bold**
 __Bold__
 
+***Bold and Italics***
+
 \**Bold*\*  <!-- Escaping -->
 
 ~~StrickThrough~~
 
-<!-- List -->
+# List
 
-<!-- Ordered -->
+## Ordered List
+
 1. One
 1. Two
 1. Three
@@ -29,7 +53,8 @@ __Bold__
     1. Nested 2
     1. Nested 3
 
-<!-- Unordered -->
+## Unordered List
+
 * One
 * Two
 * Three
@@ -40,31 +65,37 @@ __Bold__
       * Nested B
       * Nested C
 
-<!-- Code Block -->
+- One
+- Two
+- Three
+
+# Code Line
 
 `<p>This is a Line of Code</p>`
 
-<!-- Links -->
+# Link
 
 [Ahmed's Space](http://iahmed.space/ 'My Website')
 
-
-<!-- BlockQuotes -->
+# BlockQuotes
 
 > This is a Quote
 
-<!-- Horizontal Rules -->
+# Horizontal Rules
+
 ---
 Horizontal Lines
 ___
 
-<!-- Images -->
+# Images
 
 ![MarkDown](https://markdown-here.com/img/icon256.png)
 
-<!-- GitHub MarkDown -->
+# GitHub Flavored Markdown
 
-<!-- Code Block -->
+GitHub Flavored Markdown (GFM)
+
+## Code Block
 
 ```dart
 void main() {
@@ -78,7 +109,7 @@ void main() {
 }
 ```
 
-<!-- Tables -->
+## Table
 
 | First Header  | Second Header |
 | ------------- | ------------- |
@@ -86,12 +117,18 @@ void main() {
 | Content Cell  | Content Cell  |
 
 
-<!-- Task List -->
+## Task List
 
 * [x] Task 1
 * [ ] Task 2
 
-<!-- Comments -->
+## Comments
+
+This is how you comment in MarkDown :Wink:
+
+[This is how you comment in MarkDown]: #
+
+<!-- HTML comments also works as comments in MarkDown -->
 
 [//]: # (To Be Continued...)
 
