@@ -1,3 +1,5 @@
+% Title
+
 # Headings
 
 # Heading Level 1
@@ -112,6 +114,8 @@ Second Term
 
 `<p>This is a Line of Code</p>`
 
+Inline `code` has `back-ticks` around it.
+
 # Link
 
 [Ahmed's Space](http://iahmed.space/ 'My Website')
@@ -119,6 +123,41 @@ Second Term
 This site was built using [GitHub Pages](http://iahmed.space/).
 
 [Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
+
+Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
+
+This is [an example][id] reference-style link.
+You can optionally use a space to separate the sets of brackets:
+
+This is [an example] [id] reference-style link.
+Then, anywhere in the document, you define your link label like this, on a line by itself:
+
+[id]: http://example.com/  "Optional Title Here"
+
+
+You can put the title attribute on the next line and use extra spaces or tabs for padding, which tends to look better with longer URLs:
+
+[id]: http://example.com/longish/path/to/resource/here
+    "Optional Title Here"
+
+
+multiple words in the link text:
+
+Visit [Daring Fireball][] for more information.
+And then define the link:
+
+[Daring Fireball]: http://daringfireball.net/
+
+
+Here’s an example of reference links in action:
+
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
+
 
 ## URLs and Email Addresses
 
@@ -151,13 +190,48 @@ This site was built using [GitHub Pages](http://iahmed.space/).
 
 # Horizontal Rules
 
+Three or more...
+
 ---
-Horizontal Lines
+
+Hyphens
+
+***
+
+Asterisks
+
 ___
+
+Underscores
 
 # Images
 
+Inline image syntax looks like this:
+
+![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg "Optional title")
+
+Reference-style image syntax looks like this:
+
+![Alt text][id]
+Where “id” is the name of a defined image reference. Image references are defined using syntax identical to link references:
+
+[id]: url/to/image  "Optional title attribute"
+
+
+
 ![MarkDown](https://markdown-here.com/img/icon256.png)
+
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![Inline-style MarkDown](https://markdown-here.com/img/icon256.png "Logo Title Text 1")
+
+Reference-style: 
+![Reference-style MarkDown][logo]
+
+[logo]: https://markdown-here.com/img/icon256.png "Logo Title Text 2"
 
 # GitHub Flavored Markdown
 
@@ -183,6 +257,16 @@ void main() {
   print('You can call me $lastName');
 }
 ```
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+
 
 ## Table
 
@@ -190,6 +274,11 @@ void main() {
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 ### Table Alignment
 
