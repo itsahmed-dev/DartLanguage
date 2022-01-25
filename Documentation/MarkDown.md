@@ -204,6 +204,7 @@ Underscores
 
 # Images
 
+```Markdown
 Inline image syntax looks like this:
 
 ![Alt text](/path/to/img.jpg)
@@ -213,11 +214,11 @@ Inline image syntax looks like this:
 Reference-style image syntax looks like this:
 
 ![Alt text][id]
+
 Where “id” is the name of a defined image reference. Image references are defined using syntax identical to link references:
 
 [id]: url/to/image  "Optional title attribute"
-
-
+```
 
 ![MarkDown](https://markdown-here.com/img/icon256.png)
 
@@ -238,11 +239,13 @@ GitHub Flavored Markdown (GFM)
 ## Fenced Code Block
 
 Some basic Git commands are:
+
 ```
 git status
 git add
 git commit
 ```
+Dart Syntax Highlighting
 
 ```dart
 void main() {
