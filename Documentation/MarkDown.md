@@ -288,13 +288,13 @@ Markdown | Less | Pretty
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
 
-# Escaping Characters
+## Escaping Characters
 
 \* Without the backslash, this would be a bullet in an unordered list. As
 
 * This is a bullet in an unordered list.
 
-## Characters You Can Escape
+### Characters You Can Escape
 
 You can use a backslash to escape the following characters:
 
