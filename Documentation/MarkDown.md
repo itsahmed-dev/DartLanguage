@@ -1,5 +1,3 @@
-% Title
-
 # Headings
 
 # Heading Level 1
@@ -9,9 +7,9 @@
 ##### Heading Level 5
 ###### Heading Level 6
 
-## Heading ID
+<!-- ## Heading ID
 
-### My Great Heading {#custom-id}
+My Great Heading {#custom-id} -->
 
 # Text
 
