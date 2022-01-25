@@ -36,6 +36,8 @@ void main() {
 
   // case, switch and break statement
   // Note: variable used in switch-case statements can only be int or String
+
+  // Example 1: Grades
   String Grade = 'A';
   switch (Grade) {
     case 'A+':
@@ -61,5 +63,23 @@ void main() {
       break;
     default:
       print('Invalid Input');
+  }
+  // Example 2: Internet Bill
+  const choice = 'c';
+  switch (choice) {
+    case 'A':
+    case 'a':
+      print('Internet Bill is \$30/Month for 50Mbps Connection');
+      break;
+    case 'B':
+    case 'b':
+      print('Internet Bill is \$40/Month for 75Mbps Connection');
+      break;
+    case 'C':
+    case 'c':
+      print('Internet Bill is \$50/Month for 100Mbps Connection');
+      break;
+    default:
+      print('Invalid Choice');
   }
 }
