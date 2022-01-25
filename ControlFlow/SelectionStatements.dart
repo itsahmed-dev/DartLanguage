@@ -82,4 +82,17 @@ void main() {
     default:
       print('Invalid Choice');
   }
+  // Exercise
+  //Use the variable below and indicate whether or not the value is divisible by 3 (use a switch)
+
+  const value = 29;
+  bool test = value % 3 == 0;
+  switch (test) {
+    case (true):
+      print('The value is divisible by 3');
+      break;
+    case (false):
+      print('The value is not divisible by 3');
+      break;
+  }
 }
