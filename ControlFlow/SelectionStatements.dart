@@ -5,6 +5,8 @@ void main() {
     print('You can drive the car');
   }
 
+  print(''); // Line-Break
+
   // if-else Statement
   int age = 15;
   if (age >= 13) {
@@ -13,9 +15,11 @@ void main() {
     print('You can not sign-up for the service');
   }
 
+  print(''); // Line-Break
+
   // if-else-if ladder Statement
   var Marks = 73;
-  print('Percentage of Marks is $Marks');
+  print('Marks: $Marks');
   if (Marks >= 80 && Marks <= 100) {
     print('A+ Grade');
   } else if (Marks >= 70 && Marks < 80) {
@@ -33,6 +37,8 @@ void main() {
   } else {
     print('Invalid Input');
   }
+
+  print(''); // Line-Break
 
   // case, switch and break statement
   // Note: variable used in switch-case statements can only be int or String
@@ -63,36 +69,5 @@ void main() {
       break;
     default:
       print('Invalid Input');
-  }
-  // Example 2: Internet Bill
-  const choice = 'c';
-  switch (choice) {
-    case 'A':
-    case 'a':
-      print('Internet Bill is \$30/Month for 50Mbps Connection');
-      break;
-    case 'B':
-    case 'b':
-      print('Internet Bill is \$40/Month for 75Mbps Connection');
-      break;
-    case 'C':
-    case 'c':
-      print('Internet Bill is \$50/Month for 100Mbps Connection');
-      break;
-    default:
-      print('Invalid Choice');
-  }
-  // Exercise
-  //Use the variable below and indicate whether or not the value is divisible by 3 (use a switch)
-
-  const value = 29;
-  bool test = value % 3 == 0;
-  switch (test) {
-    case (true):
-      print('The value is divisible by 3');
-      break;
-    case (false):
-      print('The value is not divisible by 3');
-      break;
   }
 }
