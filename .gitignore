@@ -1,5 +1,6 @@
 # ignore ALL .log files
 *.log
+*.json
 
 # ignore ALL files in ANY directory named temp
 temp/
