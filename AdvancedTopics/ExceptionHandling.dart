@@ -1,15 +1,18 @@
+// Exception Handling in Dart
+
 void main() {
-  // on clause
+  // ON Clause
   print('on clause: ');
   try {
-    int result = 12 ~/ 0;
+    int result = 12 ~/ 0; //  Truncating Integer Division
     print(result);
   } on IntegerDivisionByZeroException {
     print('Cannot divide by Zero');
   }
+
   print(''); // Line-Break
 
-  // catch clause example:1
+  // CATCH Clause Example: 1
   print('catch clause: ');
   try {
     int result = 12 ~/ 0;
@@ -17,6 +20,7 @@ void main() {
   } catch (e) {
     print('The exception thrown is $e');
   }
+
   print(''); // Line-Break
 
   // Stack Track
@@ -29,8 +33,8 @@ void main() {
     print('Stack Track \n $s');
   }
 
-  // finally clause
-  print('finally clause: ');
+  // FINALLY Clause Example: 1
+  print('finally clause: 1');
   try {
     int result = 12 ~/ 3;
     print('Result: $result');
@@ -39,10 +43,25 @@ void main() {
   } finally {
     print('This is finally clause and is always executed');
   }
+
+  // FINALLY Clause Example: 2
+  print('\nfinally clause: 2');
+  int x = 5;
+  int y = 0;
+  int res;
+  try {
+    res = x ~/ y;
+    print(res);
+  } on IntegerDivisionByZeroException {
+    print('Cannot divide by zero');
+  } finally {
+    print('finally clause executed');
+  }
+
   print(''); // Line-Break
 
-  // catch clause example:2
-  print('another catch clause: ');
+  // CATCH Clause Example: 2
+  print('catch clause 2: ');
   String input = '3,14';
   try {
     double number = double.parse(input);
