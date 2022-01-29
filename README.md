@@ -11,7 +11,7 @@ It is also approved as a standard by ECMA and is used to build web, server, desk
 
 Dart is a client-optimized language for developing fast apps on any platform and is approved as a standard by ECMA to build web, server, desktop, mobile applications, and the Internet of Things (IoT) devices. Its goal is to offer the most productive programming language experience for multi-platform development.
 
-## Comments
+## [Comments](https://github.com/itsahmed-dev/DartLanguage/blob/main/Documentation/Comments.md)
 
 ## Syntax
 
