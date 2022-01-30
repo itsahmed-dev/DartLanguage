@@ -1,10 +1,6 @@
 # Comments
 
-<<<<<<< HEAD
-Comments are a set of statements that are not executed by the Dart compiler and interpreter. The use of comments makes it easy for humans to understand the source code[comments].
-=======
-Comments are a set of statements that are not executed by the Dart compiler and interpreter. The use of comments makes it easy for humans to understand the source code[^Documentation].
->>>>>>> parent of 8f400ef (Fixed numbering of footnotes)
+Comments are a set of statements that are not executed by the Dart compiler and interpreter. The use of comments makes it easy for humans to understand the source code[^1].
 
 ## Single Line Comment
 
@@ -12,7 +8,7 @@ Two forward slashes (//) are used for single-line comments, which extend up to t
 
 For example `// This is a single-line comment.`
 
-Single line comments are also called statement comments[^1].
+Single line comments are also called statement comments[^2].
 
 ## Multi-line Comment
 
@@ -25,7 +21,7 @@ multi-line comment.
 */
 ```
 
-Multi-line comments are also called block comments. They cannot be nested within other multi-line comments[^2].
+Multi-line comments are also called block comments. They cannot be nested within other multi-line comments[^3].
 
 ## Document Comment
 
@@ -49,14 +45,7 @@ The brackets are used to refer to classes, methods, fields, top-level variables,
 
 [Code](https://github.com/itsahmed-dev/DartLanguage/blob/main/Comments.dart 'GitHub')
 
-<<<<<<< HEAD
-[comments](https://dart.dev/guides/language/language-tour#comments)
+[^1](https://dart.dev/guides/language/language-tour#comments)
 [^2]: [Single-line comments](https://dart.dev/guides/language/language-tour#single-line-comments)
 [^3]: [Multi-line comments](https://dart.dev/guides/language/language-tour#multi-line-comments)
 [^4]: [Documentation comments](https://dart.dev/guides/language/language-tour#documentation-comments)
-=======
-[^Documentation]: [Comments](https://dart.dev/guides/language/language-tour#comments)
-[^1]: [Single-line comments](https://dart.dev/guides/language/language-tour#single-line-comments)
-[^2]: [Multi-line comments](https://dart.dev/guides/language/language-tour#multi-line-comments)
-[^3]: [Documentation comments](https://dart.dev/guides/language/language-tour#documentation-comments)
->>>>>>> parent of 8f400ef (Fixed numbering of footnotes)
