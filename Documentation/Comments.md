@@ -1,6 +1,6 @@
 # Comments
 
-Comments are a set of statements that are not executed by the Dart compiler and interpreter. The use of comments makes it easy for humans to understand the source code[^1].
+Comments are a set of statements that are not executed by the Dart compiler and interpreter. The use of comments makes it easy for humans to understand the source code[comments].
 
 ## Single Line Comment
 
@@ -45,7 +45,7 @@ The brackets are used to refer to classes, methods, fields, top-level variables,
 
 [Code](https://github.com/itsahmed-dev/DartLanguage/blob/main/Comments.dart 'GitHub')
 
-[^1]: [Comments](https://dart.dev/guides/language/language-tour#comments)
+[comments](https://dart.dev/guides/language/language-tour#comments)
 [^2]: [Single-line comments](https://dart.dev/guides/language/language-tour#single-line-comments)
 [^3]: [Multi-line comments](https://dart.dev/guides/language/language-tour#multi-line-comments)
 [^4]: [Documentation comments](https://dart.dev/guides/language/language-tour#documentation-comments)
