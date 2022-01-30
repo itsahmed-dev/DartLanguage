@@ -41,7 +41,7 @@ Document comments are used for Documentation and Reference purposes in a project
 
 e.g. **[class]** or **[method]**
 
-The brackets are used to refer to classes, methods, fields, top-level variables, functions, and parameters. The names in brackets are resolved in the lexical scope of the documented program element[^3].
+The brackets are used to refer to classes, methods, fields, top-level variables, functions, and parameters. The names in brackets are resolved in the lexical scope of the documented program element[^4].
 
 [Code](https://github.com/itsahmed-dev/DartLanguage/blob/main/Comments.dart 'GitHub')
 
