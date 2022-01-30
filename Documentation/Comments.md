@@ -45,7 +45,7 @@ The brackets are used to refer to classes, methods, fields, top-level variables,
 
 [Code](https://github.com/itsahmed-dev/DartLanguage/blob/main/Comments.dart 'GitHub')
 
-[^1](https://dart.dev/guides/language/language-tour#comments)
+[^1]: [comments](https://dart.dev/guides/language/language-tour#comments)
 [^2]: [Single-line comments](https://dart.dev/guides/language/language-tour#single-line-comments)
 [^3]: [Multi-line comments](https://dart.dev/guides/language/language-tour#multi-line-comments)
 [^4]: [Documentation comments](https://dart.dev/guides/language/language-tour#documentation-comments)
