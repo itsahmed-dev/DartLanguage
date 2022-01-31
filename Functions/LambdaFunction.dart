@@ -14,12 +14,12 @@ void main() {
   prompt();
 
   // Another Example
-  var multiplyByFour = (int n) {
-    return n * 4;
+  var multiplyByFive = (int n) {
+    return n * 5;
   };
   // or
   var multiplyFour = (int m) => m * 4;
 
-  print(multiplyByFour(5));
-  print(multiplyFour(6));
+  print(multiplyByFive(3));
+  print(multiplyFour(4));
 }

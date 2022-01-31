@@ -34,11 +34,11 @@ void main() {
 // Example 1: Accepts function as parameter
 void someOtherFunction(String message, Function myFunction) {
   print(message);
-  myFunction(2, 4);
+  myFunction(3, 4);
 }
 
 // Example 2: Returns a function
 Function taskToPerform() {
-  Function multiplyFour = (int number) => number * 4;
-  return multiplyFour;
+  Function multiplyFive = (int number) => number * 5;
+  return multiplyFive;
 }
