@@ -1,5 +1,5 @@
 void main() {
-  // variable decleration with map data type
+  // variable declaration with map data type
 
   // Dart Map Literal Declaration
   var weekDays = {
@@ -19,7 +19,7 @@ void main() {
   // Accessing value inside Map using [] and printing it
   print(weekDays['day5']);
 
-  // Accesing entire map
+  // Accessing entire map
   print(weekDays);
   print(''); // Line-Break
 

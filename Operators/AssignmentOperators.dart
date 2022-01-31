@@ -21,7 +21,7 @@ void main() {
   var dout = d -= 4;
   print(dout);
   // (*=) Multiply and Assignment
-  // It multiplys the right operand to the left operand
+  // It multiplies the right operand to the left operand
   // and assigns the result to the left operand as e = e * 5
   var e = 5;
   var eout = e *= 5;

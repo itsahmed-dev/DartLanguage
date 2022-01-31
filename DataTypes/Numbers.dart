@@ -13,8 +13,8 @@ void main() {
   print(exponent);
 
   // Integers can also be stored as double data type
-  double interger = 10;
-  print(interger);
+  double integer = 10;
+  print(integer);
   print(''); // Line-Break
 
   // Interpolation also works on ints and doubles as well like so
