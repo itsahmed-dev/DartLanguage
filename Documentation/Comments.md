@@ -43,9 +43,9 @@ e.g. **[class]** or **[method]**
 
 The brackets are used to refer to classes, methods, fields, top-level variables, functions, and parameters. The names in brackets are resolved in the lexical scope of the documented program element[^4].
 
-[Code](https://github.com/itsahmed-dev/DartLanguage/blob/main/Comments.dart 'GitHub')
+Examples can be found in this [Program.](https://github.com/itsahmed-dev/DartLanguage/blob/main/Comments.dart 'on GitHub')
 
-[^1]: [comments](https://dart.dev/guides/language/language-tour#comments)
+[^1]: [Comments](https://dart.dev/guides/language/language-tour#comments)
 [^2]: [Single-line comments](https://dart.dev/guides/language/language-tour#single-line-comments)
 [^3]: [Multi-line comments](https://dart.dev/guides/language/language-tour#multi-line-comments)
 [^4]: [Documentation comments](https://dart.dev/guides/language/language-tour#documentation-comments)
