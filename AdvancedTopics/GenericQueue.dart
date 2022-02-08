@@ -1,4 +1,4 @@
-// Dart Programming - Generics
+// Dart - Generics
 
 // Generic Queue
 

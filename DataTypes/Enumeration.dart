@@ -1,4 +1,4 @@
-// Enumeration in Dart
+// Dart - Data Types: Enumeration
 
 enum weekDays {
   Monday,

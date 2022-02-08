@@ -1,4 +1,4 @@
-// Debugging in Dart
+// Dart - Debugging
 
 void main() {
   int a = 10, b = 20, c = 5;

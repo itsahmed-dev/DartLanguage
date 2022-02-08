@@ -1,6 +1,4 @@
-// Dart Collections
-
-// Collection List in Dart
+// Dart - Collections: Collection List
 
 void main() {
   List logTypes = [];

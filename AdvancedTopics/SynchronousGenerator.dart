@@ -1,4 +1,4 @@
-// Synchronous Generator in Dart
+// Dart - Synchronous Generator
 
 void main() {
   print('Dart Synchronous Generator');

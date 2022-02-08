@@ -1,4 +1,4 @@
-// Dart Collections: Growable List
+// Dart - Collections: Growable List
 
 void main() {
   // Initializing a Growable List

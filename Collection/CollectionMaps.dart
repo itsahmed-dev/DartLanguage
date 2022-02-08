@@ -1,4 +1,4 @@
-// Collection Maps in Dart
+// Dart - Collections: Collection Maps
 
 void main() {
   var details = Map();

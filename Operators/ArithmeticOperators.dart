@@ -1,4 +1,4 @@
-// Arithmetic Operators in Dart
+// Dart - Arithmetic Operators
 
 void main() {
   /// Normal Arithmetic Operators

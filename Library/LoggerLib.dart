@@ -1,3 +1,5 @@
+// Dart - Libraries
+
 library loggerlib;
 
 void log(msg) {

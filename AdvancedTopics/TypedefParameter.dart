@@ -1,4 +1,4 @@
-// Typedef as Parameter in Dart
+// Dart - Typedef as Parameter
 
 // Typedef Function Signature
 typedef MultiOp(int num1, int num2);

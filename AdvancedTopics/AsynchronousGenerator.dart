@@ -1,4 +1,4 @@
-// Asynchronous Generator in Dart
+// Dart - Asynchronous Generator
 
 main() {
   print('Dart Asynchronous Generator');

@@ -1,4 +1,4 @@
-// Dart Programming - Generics
+// Dart - Generics
 
 void main() {
 // Example 1: Generic List

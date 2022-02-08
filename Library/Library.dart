@@ -1,4 +1,4 @@
-// Dart Programming - Libraries
+// Dart - Libraries
 
 // importing a library
 import 'dart:math';

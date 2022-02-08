@@ -1,3 +1,5 @@
+// Dart - Variables
+
 int a = 1;
 void main() {
   print('Value of Global Variable inside main(): $a');

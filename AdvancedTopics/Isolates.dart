@@ -1,4 +1,4 @@
-// Isolates in Dart
+// Dart - Isolates
 
 import 'dart:isolate';
 
