@@ -16,6 +16,7 @@ class MainCake {
   ];
 
 // private properties
+  // ignore: unused_field
   String _pieceOfCake1 = "chocolate";
   String pieceOfCake2 = "butterscotch";
 }
