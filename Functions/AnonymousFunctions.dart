@@ -4,17 +4,6 @@
 // TODO: Figure Out Difference between lambda, anonymous, fat-arrow => functions
 // ?? What's the difference?
 
-// ?? Check Example Below
-/*
-void main() {
-  var list = ["John", "Doe", "Smith", "Alex"];
-  print("Dart Anonymous Function");
-  list.forEach((item) {
-    print('${list.indexOf(item)}: $item');
-  });
-}
-*/
-
 // Normal Function
 void addTwoNumbers(int a, int b) {
   var sum = a + b;
@@ -40,4 +29,11 @@ void main() {
   // Calling normal function
   print('Normal Function');
   addTwoNumbers(5, 7);
+
+  // Another Anonymous Function
+  var list = ["John", "Doe", "Smith", "Alex"];
+  print("Dart Anonymous Function");
+  list.forEach((item) {
+    print('${list.indexOf(item)}: $item');
+  });
 }
