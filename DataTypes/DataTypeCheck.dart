@@ -12,4 +12,9 @@ void main() {
   print('$aConstDouble is ${aConstDouble.runtimeType}');
   print('$aConstString is ${aConstString.runtimeType}');
   print('$aConstBool is ${aConstBool.runtimeType}');
+
+  // or
+  if (aConstInt is int) {
+    print('$aConstInt is an Integer');
+  }
 }
