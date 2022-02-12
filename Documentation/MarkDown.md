@@ -190,6 +190,18 @@ I get 10 times more traffic from [Google] [1] than from
 >
 > *Everything* is going according to **plan**.
 
+## Toggle
+
+<details>
+  <summary>:zap: This is a toggle!</summary>
+
+  Contents of toggle.
+</details>
+
+## Callouts
+
+> :bulb: **Tip:** Here is an important tip to remember!
+
 ## Horizontal Rules
 
 Three or more...
@@ -346,6 +358,8 @@ This is how you comment in MarkDown :Wink:
 [//]: <> (This is also a comment.)
 
 [//]: # (This may be the most platform independent comment)
+
+[This is a hidden comment]: #
 
 ### Footnotes
 
