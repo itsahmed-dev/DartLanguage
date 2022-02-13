@@ -1,4 +1,4 @@
-// Difference between set and map when empty
+// Different ways of Declaring a Set and Map
 
 void main() {
   // Empty Maps
@@ -26,26 +26,36 @@ void main() {
 
   print(''); //  Line-Break
 
-  // Empty Sets
-  var collection5 = <int>{};
+  Map<String, dynamic> collection5 = {};
   print(collection5.runtimeType);
-  // CompactLinkedHashSet<int>
 
   print(''); //  Line-Break
 
-  Set collection6 = <int>{};
+  Map collection6 = <String, dynamic>{};
   print(collection6.runtimeType);
+
+  print(''); //  Line-Break
+
+  // Empty Sets
+  var collection7 = <int>{};
+  print(collection7.runtimeType);
   // CompactLinkedHashSet<int>
 
   print(''); //  Line-Break
 
-  var collection7 = new Set();
-  print(collection7.runtimeType);
+  Set collection8 = <int>{};
+  print(collection8.runtimeType);
+  // CompactLinkedHashSet<int>
+
+  print(''); //  Line-Break
+
+  var collection9 = new Set();
+  print(collection9.runtimeType);
   // CompactLinkedHashSet<dynamic>
 
   print(''); //  Line-Break
 
-  Set<String> collection8 = {};
-  print(collection8.runtimeType);
+  Set<String> collection0 = {};
+  print(collection0.runtimeType);
   // CompactLinkedHashSet<String>
 }

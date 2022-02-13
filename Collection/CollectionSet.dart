@@ -26,8 +26,8 @@ void main() {
   print('Iterating through the Set\n');
 
   print('Method: 1');
-  // Using for-in loop with element(object)
-  // Iterating through all the elements using a for-in loop
+  // Using For-In Loop with element(object)
+  // Iterating through all the elements using a For-In Loop
   for (var element in numberSet) {
     print(element);
   }
@@ -37,4 +37,14 @@ void main() {
   print('Method: 2');
   // Using Lambda
   numberSet.forEach((element) => print(element));
+
+  print(''); //  Line-Break
+
+  // Union, Intersection and Difference
+  // another set
+  Set colors = {'Blue', 'Yellow', 'Orange'};
+  Set fruits = {'Apple', 'Mango', 'Orange'};
+  print(colors.union(fruits));
+  print(colors.intersection(fruits));
+  print(colors.difference(fruits));
 }
