@@ -1,4 +1,4 @@
-// Dart - Data Types: Maps
+// Dart - Collection: Maps
 
 void main() {
   // Variable declaration with Map Data Type

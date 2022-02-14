@@ -1,4 +1,4 @@
-// Dart - Data Types: Lists
+// Dart - Collection: Lists
 
 void main() {
   [1, 2, 3]; // Literals

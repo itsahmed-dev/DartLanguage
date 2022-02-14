@@ -1,4 +1,4 @@
-// Dart - Data Types: Sets
+// Dart - Collection: Sets
 
 void main() {
   // String Set Example
