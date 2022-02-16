@@ -14,11 +14,11 @@ void main() {
   // single or double quotation marks
   String singleQ =
       // with single quotes ‘’
-      'String Value in Single Quotation Marks';
+      'String in Single Quotation Marks';
   print(singleQ);
   String doubleQ =
       // with double quotes “”
-      "String Value in Double Quotation Marks";
+      "String in Double Quotation Marks";
   print(doubleQ);
   print(''); // line-break
 
@@ -27,12 +27,12 @@ void main() {
   // Solution is Escaping as shown below
   print('Escape Character\n');
   print('Escape Character within Single Quotes');
-  String escapeSingleQ = 'It\'s easy with escaping';
+  String escapeSingleQ = 'It\'s possible with an escape character';
   print(escapeSingleQ);
 
   // or just use double quotes
   print('No Escape Character within Double Quotes');
-  String doubleQ2 = "It's easy with double quotes";
+  String doubleQ2 = "It's better without an escape character";
   print(doubleQ2);
 
   // Adding Dollar Sign $ along with Escape Character
@@ -84,12 +84,18 @@ using triple single quotes
   print('My name is $firstName$lastName');
 
   // Example of String Interpolation of
-  // value being stored in a variable
+  // Value Stored in a Variable
   print('String Interpolation of Variables');
   String letterA = 'A';
   int numberOne = 1;
   String stringInterpolation = '$letterA$numberOne';
   print(stringInterpolation);
+
+  print(''); //  Line-Break
+
+  // Math Expression
+  print('Interpolation of Math Expression');
+  print("The sum of 5 and 3 equals ${5 + 3}.");
 
   // Get the length of String using Concatenation
   // .toString() is a method to convert int to String
@@ -138,9 +144,15 @@ using triple single quotes
   print('String Concatenation with Variables');
   print(firstName + lastName); // Not a convention of Dart
 
-  // String Concatenation Example 2
+  // String Concatenation Example 3
   print('Another Example of String Concatenation with Variables');
   String a = 'Muhammad ';
   String b = 'Ahmed';
   print(a += b);
+
+  // String Concatenation Example 4
+  var multiline = 'String '
+      'concatenation'
+      " works even over line breaks.";
+  print(multiline);
 }
