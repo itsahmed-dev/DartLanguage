@@ -1,12 +1,8 @@
 # ignore ALL .log files
 *.log
-*.json
-*.yaml
 
 # ignore ALL files in ANY directory named temp
-temp/
 .vscode/
-Exercises/
 
 # ignore All name files, name folders, and files
 # and folders in any name folder

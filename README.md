@@ -1,4 +1,3 @@
-# DartLanguage
-Dart Programming Language
+# Dart Programming Language
 
 Branch for Exercises
