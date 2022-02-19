@@ -112,12 +112,12 @@ void main() {
   // or
   print('Both: ');
   for (var entries in details.entries) {
-    // print(entries);
+    print(entries);
     // Output:
-    // MapEntry(Username: admin
+    // MapEntry(Username: admin)
     // MapEntry(Password: admin@786)
 
-    print('${entries.key} : ${entries.value}');
+    // print('${entries.key} : ${entries.value}');
     // Output:
     // Username : admin
     // Password : admin@786

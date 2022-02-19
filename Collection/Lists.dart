@@ -30,11 +30,15 @@ void main() {
   print(''); // Line-Break
 
   // Using add() method to add value to the list
-  print('Empty List $list4 after using add() method');
+  print('Empty List $list4 after using add() and addAll() method');
+  print('Single object: ');
   list4.add(1);
-  list4.add(2);
-  list4.add(3);
-  list4.add(4);
+  // or
+  list4.addAll([2]);
+  print(list4);
+
+  print('Multiple objects');
+  list4.addAll([3, 4]);
   print(list4);
 
   print(''); // Line-Break
@@ -76,7 +80,7 @@ void main() {
   print(''); // Line-Break
 
   // Loop inside list
-  print('for loop in the List');
+  print('For Loop in the List');
   List names = [
     'Ahmed',
     'Ali',
