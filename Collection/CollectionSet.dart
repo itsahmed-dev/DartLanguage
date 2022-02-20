@@ -16,6 +16,19 @@ void main() {
 
   print(''); //  Line-Break
 
+  var setOfFruits = {'apples', 'oranges', 'watermelon', 'grapes'};
+
+  //Check whether a single item is in the set
+  print(setOfFruits.contains('grapes'));
+
+  //Check whether multiple items are in the set
+  print(setOfFruits.containsAll(['watermelon', 'bananas'])); //First Method
+
+  var fruitsToCheck = {'watermelon', 'bananas'};
+  print(setOfFruits.containsAll(fruitsToCheck)); // Second Method
+
+  print(''); //  Line-Break
+
   print(
       'Set contain given element: ${numberSet.contains(99)}'); // returns boolean
   print('Set is empty: ${numberSet.isEmpty}');

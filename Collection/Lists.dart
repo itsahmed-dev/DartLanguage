@@ -88,4 +88,15 @@ void main() {
     'Ahmed',
   ];
   print(names);
+
+  print(''); //  Line-Break
+
+  // map() method
+  var listOfFruits = ['Apple', 'Banana', 'Mango'];
+  var mappedFruits = listOfFruits.map((Fruits) => 'I love $Fruits');
+  print(mappedFruits);
+  // List
+  var mappedFruitsList =
+      listOfFruits.map((Fruits) => 'I love $Fruits').toList();
+  print(mappedFruitsList);
 }
