@@ -72,4 +72,81 @@ void main() {
     }
     print(l);
   }
+
+  print(''); //  Line-Break
+
+  // switch-case example
+  printError(NetworkError.BadURL);
+}
+
+enum NetworkError { BadURL, ResourceNotFound, TimeOut }
+
+void printError(NetworkError error) {
+  switch (error) {
+    case NetworkError.BadURL:
+      print('Bad URL');
+      break;
+    case NetworkError.ResourceNotFound:
+      print('Resource Not Found');
+      break;
+    case NetworkError.TimeOut:
+      print('Time Out');
+      break;
+  }
+
+  print(''); //  Line-Break
+
+  // break statement example
+  // break after finding first even number
+  var intList = [7, 3, 9, 6, 2, 5, 4];
+
+  for (var i in intList) {
+    if (i % 2 == 0) {
+      print(i);
+      break;
+    }
+  }
+
+  print(''); //  Line-Break
+
+  // continue statement example
+  /*
+  Imagine you’re responsible for hiring a new employee for your company that has 5 years of work experience. You go over the list of candidates. Candidates with less than 5 years of experience are skipped, while candidates with more than 5 years of experience are called for an interview.
+
+We will store the experience of our candidates in a list. The first candidate’s experience will be at index 0, the second candidate’s experience will be at index 1, and so on.
+  */
+  var experience = [5, 1, 9, 7, 2, 4];
+
+  for (var i = 0; i < experience.length; i++) {
+    var candidateExperience = experience[i];
+    if (candidateExperience < 5) {
+      continue;
+    }
+    print("Call candidate $i for an interview.");
+  }
+
+  print(''); //  Line-Break
+
+  // switch-case example
+  var command = 'OPEN';
+
+  switch (command) {
+    case 'CLOSED':
+      print('closed');
+      break;
+    case 'PENDING':
+      print('pending');
+      break;
+    case 'APPROVED':
+      print('approved');
+      break;
+    case 'DENIED':
+      print('denied');
+      break;
+    case 'OPEN':
+      print('open');
+      break;
+    default:
+      print('command unknown');
+  }
 }
