@@ -1,4 +1,6 @@
-// Dart - Variables
+// Dart - Variables : Lexical Scope
+
+// Using Assert Statement
 
 // ignore_for_file: unused_element
 

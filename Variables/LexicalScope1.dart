@@ -1,4 +1,4 @@
-// Dart - Variables
+// Dart - Variables : Lexical Scope
 
 int a = 1;
 void main() {
