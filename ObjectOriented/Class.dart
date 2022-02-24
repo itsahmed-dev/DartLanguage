@@ -1,13 +1,15 @@
+// Dart - Object Oriented Programming : Class
+
 // Declaring a Class
 
 // Example 1
 
 class Student {
-  int? id;
-  String? name;
+  int? id; // Instance Variable
+  String? name; // Instance Variable
 
   studying() {
-    return 'studying';
+    return 'studying'; // Instance Method
   }
 }
 
@@ -37,10 +39,11 @@ void main() {
 
   // Example 1
   var student1 = Student();
-  student1.id = 786;
-  student1.name = "Ahmed";
+  student1.id = 786; // Accessing Instance Variables
+  student1.name = "Ahmed"; // Accessing Instance Variables
   print(
       'ID: ${student1.id} The student ${student1.name} is ${student1.studying()}');
+
   print(''); // Line-Break
 
   var student2 = Student();
@@ -53,12 +56,12 @@ void main() {
   // Example 2
   var emp = Employee();
 
-  // Accessing Instance Variable and Functions
+  // Accessing Instance Variables and Methods
   emp.empName = 'Ali';
   emp.empAge = 30;
   emp.empSalary = 50000;
 
-  // Accessing Class Property and Method
+  // Accessing Instance Method
   print("Dart Access Class Property and Method");
   emp.showEmpInfo();
 
