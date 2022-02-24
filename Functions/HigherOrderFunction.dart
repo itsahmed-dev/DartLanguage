@@ -1,4 +1,6 @@
-// Higher Order Functions in Dart
+// Dart - Functions
+
+// Higher Order Functions
 
 // ignore: todo
 // TODO: Figure Out Higher Order Functions
@@ -8,6 +10,18 @@
 Function myFunction() {
   // Function returning another Function
   return () => print('My Function is called');
+}
+
+// Example 1: Accepts function as parameter
+void someOtherFunction(String message, Function myFunction) {
+  print(message);
+  myFunction(3, 4);
+}
+
+// Example 2: Returns a function
+Function taskToPerform() {
+  Function multiplyFive = (int number) => number * 5;
+  return multiplyFive;
 }
 
 void main() {
@@ -29,16 +43,18 @@ void main() {
   // Example 2: Receiving Function from Higher-Order Function
   var myFunc = taskToPerform();
   print(myFunc(10));
+
+  print(''); //  Line-Break
+
+  // Another Example
+  var result = arithmeticCalculator(add, 4, 9);
+  print(result);
 }
 
-// Example 1: Accepts function as parameter
-void someOtherFunction(String message, Function myFunction) {
-  print(message);
-  myFunction(3, 4);
+num arithmeticCalculator(Function f, int x, int y) {
+  return f(x, y);
 }
 
-// Example 2: Returns a function
-Function taskToPerform() {
-  Function multiplyFive = (int number) => number * 5;
-  return multiplyFive;
+num add(int a, int b) {
+  return a + b;
 }
