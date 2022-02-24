@@ -1,16 +1,18 @@
-// Dart - Variables
+// Dart - Variables : Closure
 
 void main() {
-  print('Lexical Close Variable Demo');
+  print('Lexical Closure Variable Demo');
   Initial() {
     var name = "Ahmed"; // Local variable created in Initial() Function
     void displayName() {
-      // displayName() is inner function, closure
-      print(name); // Using Variable declared in parent function
+      // displayName() is Inner Function, Closure
+      print(name); // Using Variable declared in Parent Function
     }
 
-    displayName(); // Calling inner function
+    displayName(); // Calling Inner Function
   }
 
-  Initial(); // Calling parent function
+  print(''); //  Line-Break
+
+  Initial(); // Calling Parent Function
 }
