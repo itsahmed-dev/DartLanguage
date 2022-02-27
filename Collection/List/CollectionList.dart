@@ -1,4 +1,4 @@
-// Dart - Collections: Collection List
+// Dart - Collection: Collection List
 
 // ignore_for_file: unused_local_variable
 
