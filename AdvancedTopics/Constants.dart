@@ -1,7 +1,14 @@
 // Dart - Constants
 
 // There are two types of Constants in Dart
-// ignore_for_file: unused_local_variable
+
+// final (run-time)
+// const (compile-time)
+
+class Circle {
+  final color = 'Blue';
+  static const pi = 3.14;
+}
 
 void main() {
   // 1. final
@@ -14,22 +21,8 @@ void main() {
   const pi = 3.14;
   const double gravity = 9.8;
 
-  // Exercise
-  // ignore: todo
-  // TODO: Figure it out
-  const firstName = 'Muhammad';
-  const lastName = 'Ahmed';
-  var fullName = '$firstName $lastName';
-  final fullNameLength = fullName.length.toString();
-  fullName = 'M Ahmed Chowhan';
-
   print(cityName);
   print(countryName);
   print(pi);
   print(gravity);
-}
-
-class Circle {
-  final color = 'Blue';
-  static const pi = 3.14;
 }
