@@ -1,4 +1,4 @@
-// Andrea Exercises : fizz buzz algorithm
+// Andrea: fizz buzz algorithm
 
 void main() {
   for (var i = 1; i <= 15; i++) {

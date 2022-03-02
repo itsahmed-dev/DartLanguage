@@ -1,6 +1,4 @@
-/* Andrea Exercise: Restaurant Rating
-Write a program that calculates the average rating score for each restaurant, and adds it as an 'avgRating': value key-value pair for that restaurant.
-*/
+// Andrea Exercise: Restaurant Rating
 
 void main() {
   var restaurants = [

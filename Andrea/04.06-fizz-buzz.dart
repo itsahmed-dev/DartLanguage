@@ -1,4 +1,4 @@
-// Andrea Exercises : break and continue use case
+// Andrea Exercise: break and continue use case
 
 void main() {
   for (var i = 1; i <= 16; i++) {

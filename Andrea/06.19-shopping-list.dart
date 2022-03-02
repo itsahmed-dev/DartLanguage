@@ -1,6 +1,4 @@
-/* Andrea Exercise: Shopping List
-Rewrite this code so that the shoppingList variable is initialized using collection-if, collection-for or spreads, and the program output is the same.
-*/
+// Andrea Exercise: Shopping List
 
 void main() {
   const bananas = 5;

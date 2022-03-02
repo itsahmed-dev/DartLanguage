@@ -1,4 +1,4 @@
-// Andrea Exercises : switch and case statement use case
+// Andrea: switch and case statement use case
 
 void main() {
   const pos = 1;

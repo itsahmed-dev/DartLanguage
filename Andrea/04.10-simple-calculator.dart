@@ -1,4 +1,4 @@
-// Andrea Exercises : Simple Calculator using enum
+// Andrea Exercise: Simple Calculator using enum
 
 enum Operation { plus, minus, multiply, divide }
 

@@ -1,4 +1,4 @@
-// Rock-Paper-Scissor Game Exercise by Andrea
+// Andrea Exercise: Rock-Paper-Scissor Game
 
 import 'dart:io';
 

@@ -1,4 +1,4 @@
-// Andrea Exercises : enum use case
+// Andrea: enum use case
 
 enum Position { One, Two, Three, Four, Five }
 

@@ -1,4 +1,4 @@
-// Andrea Exercises : Salary & Expenses
+// Andrea Exercise: Salary & Expenses
 
 void main() {
   const netSalary = 10000;
