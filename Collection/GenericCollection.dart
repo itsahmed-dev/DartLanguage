@@ -1,4 +1,4 @@
-// Dart - Collections: Generics
+// Dart - Collection: Generic Collection
 
 void main() {
   // Type-safe List via Generics
