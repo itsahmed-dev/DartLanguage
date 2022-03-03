@@ -1,6 +1,7 @@
-// Inheritance in Dart
+// Dart - Object Oriented Programming: Inheritance
 
 // Hierarchical Inheritance
+
 // More than one classes have the same parent class
 
 class Parent {
@@ -22,7 +23,10 @@ class Child2 extends Child {
 }
 
 void main() {
-  print('Hierarchical Inheritance\n');
+  print('Hierarchical Inheritance');
+
+  print(''); //  Line-Break
+
   Child()
     ..display1()
     ..parentFunction();

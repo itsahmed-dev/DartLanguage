@@ -1,3 +1,7 @@
+// Dart - Object Oriented Programming: Class
+
+// Class by Andrea
+
 class Person {
   // Class Constructor with this keyword
   Person({this.name, this.age});

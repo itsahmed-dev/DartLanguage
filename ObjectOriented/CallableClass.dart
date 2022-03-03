@@ -1,4 +1,4 @@
-// Callable Class in Dart
+// Dart - Object Oriented Programming: Class
 
 // Callable Class
 class Person {
@@ -10,7 +10,7 @@ class Person {
 
 void main() {
   var personOne = Person();
-  // Class object as function
-  var p1 = personOne(30, 'Ahmed');
+  // Class Object as Function
+  var p1 = personOne(32, 'Ahmed');
   print(p1);
 }

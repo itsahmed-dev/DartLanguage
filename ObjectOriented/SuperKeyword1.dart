@@ -1,4 +1,6 @@
-// Use of super keyword to access Parent Class Variables
+// Dart - Object Oriented Programming: Super Keyword
+
+// Use of Super Keyword to access Parent Class variables
 class SuperClass {
   int num = 50;
 }
@@ -55,44 +57,21 @@ class Child extends Parent {
   }
 }
 
-// Another example
-
-// SuperClass Car
-class Car {
-  int speed = 180;
-}
-
-// SubClass Bike extending Car
-class Bike extends Car {
-  int speed = 110;
-
-  void display() {
-    // Accessing Variable of the SuperClass Car with super keyword
-    print('The Speed of Car: ${super.speed}');
-    // Accessing Variable of the SubClass Bike without super keyword
-    print('The Speed of Bike: ${speed}');
-  }
-}
-
 void main() {
   print('Super Keyword for Accessing Parent Class Variable');
-  var obj1 = SubClass();
-  obj1.printNum();
+  var object1 = SubClass();
+  object1.printNum();
+
   print(''); // Line-Break
 
   print('Invoking Parent Class Method with Super Keyword');
-  var obj2 = SubClass2();
-  obj2.printMsgSuper();
+  var object2 = SubClass2();
+  object2.printMsgSuper();
   print('Invoking Parent Class Method without Super keyword');
-  var obj3 = SubClass2();
-  obj3.printMsg();
+  var object3 = SubClass2();
+  object3.printMsg();
 
   print('Using Super Keyword with Constructor\n');
   // Calling Constructor from Parent and Child Classes
   Child();
-  print(''); // Line-Break
-
-  // Creating Object of SubClass
-  var b = Bike();
-  b.display();
 }

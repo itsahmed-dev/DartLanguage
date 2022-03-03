@@ -1,7 +1,8 @@
-// Super Constructors
+// Dart - Object Oriented Programming: Constructor
 
-// Implicit super
+// Super Constructor
 
+// Implicit Super
 class Vertebrate {
   Vertebrate() {
     print('Vertebrate is: Spined');
@@ -15,7 +16,6 @@ class Cat extends Vertebrate {
 }
 
 // Explicit super
-
 class Vertebrate2 {
   Vertebrate2(String action) {
     print('Vertebrate is: $action');
@@ -38,7 +38,8 @@ class Finch extends Bird {
 void main() {
   print('Implicit super:\n');
   Cat();
-  print('\n');
+
+  print(''); //  Line-Break
 
   print('Explicit super:\n');
   Finch('Yellow');

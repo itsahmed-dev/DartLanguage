@@ -1,8 +1,6 @@
 // Dart - Object Oriented Programming
 
-// Getter and Setter
-
-// educative example
+// Getter and Setter by educative
 
 class Figure {
   num left, top, width, height; // Instance Variable

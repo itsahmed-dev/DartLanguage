@@ -1,3 +1,7 @@
+// Dart - Object Oriented Programming: Class
+
+// Abstract Class by Andrea
+
 import 'dart:math'; // For pi value below
 
 abstract class Shape {

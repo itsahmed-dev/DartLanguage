@@ -1,4 +1,5 @@
-// Dart Interfaces
+// Dart - Object Oriented Programming: Interfaces
+
 // Multiple Interfaces
 
 // Declaring Interface 1
@@ -59,7 +60,7 @@ void main() {
   employee.pro = 'App Dev';
   employee.salary = 25000;
 
-  print('Dart Multiple Interfaces Implementation Example\n');
+  print('Multiple Interfaces Implementation Example:');
 
   employee.showName();
   employee.showAge();

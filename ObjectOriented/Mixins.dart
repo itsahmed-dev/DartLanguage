@@ -1,4 +1,4 @@
-// Mixins
+// Dart - Object Oriented Programming: Mixins
 
 class Animals {
   void breath() => print('Breathing');

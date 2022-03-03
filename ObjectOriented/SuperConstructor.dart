@@ -1,6 +1,10 @@
+// Dart - Object Oriented Programming: Constructor
+
+// Super Constructor
+
 class ParentClass {
   ParentClass() {
-    print('Constructor of Parent Class');
+    print('Constructor of ParentClass');
   }
 }
 
@@ -19,18 +23,18 @@ class SubClass extends ParentClass {
 class ParentClass2 {
   //parameterized constructor
   ParentClass2(String str) {
-    print('Parameterized Constructor Of Parent Class 2');
+    print('Parameterized Constructor Of ParentClass2');
     print(str);
   }
 }
 
 class SubClass2 extends ParentClass2 {
-  SubClass2() : super('Hello from Parent Class 2') {
-    print('Constructor of Sub Class 2');
+  SubClass2() : super('Hello from ParentClass2') {
+    print('Constructor of SubClass2');
   }
 
   display() {
-    print('Method of Sub Class 2');
+    print('Method of SubClass2');
   }
 }
 
@@ -42,8 +46,8 @@ class Person {
     this.age = pAge;
   }
   showPerInfo() {
-    print("Person's Name Is : ${name}");
-    print("Person's Age Is : ${age}");
+    print('Person\'s Name Is : ${name}');
+    print('Person\'s Age Is : ${age}');
   }
 }
 
@@ -53,34 +57,46 @@ class Employee extends Person {
     this.empSalary = eSalary;
   }
   showEmpInfo() {
-    print("Employee Name Is : ${name}");
-    print("Employee Age Is : ${age}");
-    print("Employee Salary Is : ${empSalary}");
+    print('Employee Name Is : ${name}');
+    print('Employee Age Is : ${age}');
+    print('Employee Salary Is : ${empSalary}');
   }
 }
 
 void main() {
-  print('Dart Implicit Super Constructor Example\n');
-  /* Creating object using default constructor. This
-  will invoke sub class constructor, which will 
-	invoke parent class constructor */
-  var obj = SubClass();
-  //Calling sub class method
-  obj.display();
+  print('Dart Implicit Super Constructor');
+
+  print(''); //  Line-Break
+
+  /*
+  Creating object using Default Constructor.
+  This will invoke SubClass Constructor, which will	invoke ParentClass Constructor
+  */
+  var object = SubClass();
+  //Calling SubClass Method
+  object.display();
 
   print(''); // Line-Break
 
-  print('Dart Parameterized Super Constructor Examples\n');
-  var obj2 = SubClass2();
-  //Calling sub class 2 method
-  obj2.display();
+  print('Dart Parameterized Super Constructor');
+
+  print(''); //  Line-Break
+
+  var object2 = SubClass2();
+  //Calling SubClass2 Method
+  object2.display();
 
   print(''); // Line-Break
 
-  print("Dart Super Constructor Example\n");
-  var p = Person("Ahmed", 30);
+  print('Dart Super Constructor');
+
+  print(''); //  Line-Break
+
+  var p = Person('Ahmed', 30);
   p.showPerInfo();
+
   print(''); // Line-Break
-  var e = Employee("Ali", 25, 25000);
+
+  var e = Employee('Ali', 25, 25000);
   e.showEmpInfo();
 }

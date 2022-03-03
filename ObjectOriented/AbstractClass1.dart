@@ -1,22 +1,24 @@
+// Dart - Object Oriented Programming: Class
+
 // Abstract Class
 
-// Declaring abstract class
+// Declaring an Abstract Class
 abstract class Person {
-  // Declaring abstract method
+  // Declaring an Abstract Method
   void personInfo();
 }
 
 class Boy extends Person {
-  // Overriding method in abstract class
+  // Overriding Method in Abstract Class
   void personInfo() {
-    print('The Boy: Paras');
+    print('The Boy: Jessie');
   }
 }
 
 class Girl extends Person {
-  // Overriding method in abstract class
+  // Overriding Method in Abstract Class
   void personInfo() {
-    print('The Girl: Parisa');
+    print('The Girl: Jessica');
   }
 }
 
