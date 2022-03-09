@@ -2,8 +2,6 @@
 
 // Factory Constructor by JJ.
 
-// TODO: Finish this Program
-
 class Reading {
   double value;
   Reading({required double value}) : this.value = value;
