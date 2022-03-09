@@ -13,9 +13,11 @@ class Circle {
 void main() {
   // 1. final
   final cityName = 'Mirpur';
-  //	name = 'Ahmed';     // Throws an error
 
   final String countryName = 'Pakistan';
+
+  final currentDay = DateTime.now().toUtc().toString();
+  print('Today is: $currentDay');
 
   // 2. const
   const pi = 3.14;
