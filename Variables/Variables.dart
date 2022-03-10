@@ -9,9 +9,13 @@ void main() {
   int v2 = 2;
   print(v2);
 
+  print(''); //  Line-Break
+
   // Variable Declaration with String Data Type
   String myName = 'Muhammad Ahmed';
   print(myName);
+
+  print(''); //  Line-Break
 
   // If an object isn’t restricted to a single type use Object or dynamic
   Object name1 = 'Muhammad';
@@ -19,20 +23,26 @@ void main() {
   dynamic name2 = 'Ahmed';
   print(name2);
 
+  print(''); //  Line-Break
+
   // Multiple Variable Declarations in a single-line
   var firstName, middleName, lastName;
   firstName = 'Muhammad';
   print(firstName);
-  middleName = '';
+  middleName = ''; // Results in a new-line
   print(middleName);
   lastName = 'Ahmed';
   print(lastName);
 
+  print(''); //  Line-Break
+
   // late Variable Declaration
-  late var variable1 = 'Late Variable';
-  print(variable1);
+  late var lateVar = 'Late Variable';
+  print(lateVar);
+
+  print(''); //  Line-Break
 
   // Default value
   int? a;
-  print('Default value of a: $a');
+  print('Default value of a Variable: $a');
 }
