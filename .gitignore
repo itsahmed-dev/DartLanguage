@@ -14,7 +14,7 @@ Exercises/
 /name/file.txt
 /lib/name.log
 
-/demo.dart
+/main.dart
 
 # ignore Ending with / specifies the pattern is for a folder.
 # Matches all files and folders in any name folder
