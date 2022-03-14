@@ -20,4 +20,9 @@ void main() {
   for (var i = 0; i < logTypes.length; i++) {
     print(logTypes[i]);
   }
+
+  print(''); //  Line-Break
+
+  print('List Literals: For Each');
+  logTypes.forEach(print);
 }
