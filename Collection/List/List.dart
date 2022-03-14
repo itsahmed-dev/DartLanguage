@@ -29,6 +29,12 @@ void main() {
 
   print(''); // Line-Break
 
+  print('Spread Operator');
+  var spreadList = [...list2, ...list3];
+  print(spreadList);
+
+  print(''); //  Line-Break
+
   // Using add() method to add value to the list
   print('Empty List $list4 after using add() and addAll() method');
   print('Single object: ');

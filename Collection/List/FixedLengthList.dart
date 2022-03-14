@@ -21,29 +21,4 @@ void main() {
 
   numberList[0] = 55; // Updating value in the list at index[0]
   print('The first value 50 is now ${numberList[0]}'); // 50 is now 55
-
-  print(''); //  Line-Break
-
-  print('Iterating through the List\n');
-
-  print('Method: 1');
-  // Using for-in loop with element(object)
-  // Iterating through all the elements is using a for-in loop
-  for (var element in numberList) {
-    print(element);
-  }
-
-  print(''); //  Line-Break
-
-  print('Method: 2');
-  // Using Lambda
-  numberList.forEach((element) => print(element));
-
-  print(''); //  Line-Break
-
-  print('Method: 3');
-  // Using for loop with index
-  for (var i = 0; i < numberList.length; i++) {
-    print(numberList[i]);
-  }
 }
