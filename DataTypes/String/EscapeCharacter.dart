@@ -41,12 +41,4 @@ void main() {
   print('Escape Character with n for Newline');
   String multilineEscape = 'This is line 1 \nThis is line 2';
   print(multilineEscape);
-
-  print(''); // line-break
-
-  // String Concatenation Example
-  var multiline = 'String '
-      'concatenation'
-      " works even over line breaks.";
-  print(multiline);
 }
