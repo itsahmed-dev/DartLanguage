@@ -3,7 +3,7 @@
 // Multi-line String
 
 void main() {
-  print(':::Multi-line String:::');
+  print('Multi-line String');
 
   print(''); //  Line-Break
 

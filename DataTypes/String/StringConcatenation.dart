@@ -1,8 +1,14 @@
+// Dart - Data Types: Strings
+
+// String Concatenation
+
 void main() {
   String firstName = 'Muhammad ';
   String lastName = 'Ahmed';
 
-  print('String Concatenation\n');
+  print('String Concatenation');
+
+  print(''); //  Line-Break
 
   // String Concatenation Example 1
   print('String Concatenation without Variables');
