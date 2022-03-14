@@ -1,4 +1,6 @@
-// Dart - Logical Operators
+// Dart Programming - Operators
+
+// Logical Operators (AND, OR, NOT)
 
 // ignore_for_file: dead_code
 
@@ -33,4 +35,9 @@ void main() {
   // OR
   print(true && expr); // true && expr --> expr
   print(false && expr); // false && expr --> false
+
+  print(''); //  Line-Break
+
+  // NOT
+  print('The opposite of true is ${!true}');
 }
