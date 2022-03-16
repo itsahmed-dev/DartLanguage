@@ -12,4 +12,18 @@ void main() {
   }
   int value = maybeValue!;
   print(value);
+
+  print(''); //  Line-Break
+
+  // Another example by Wicked.
+
+  String? nullableString;
+  String nonNullableString;
+
+  nonNullableString = nullableString!;
+
+  print(nonNullableString); // Will result in an error
+  /* Unhandled exception:
+  Null check operator used on a null value
+  */
 }
