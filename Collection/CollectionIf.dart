@@ -1,8 +1,8 @@
-// Dart Collection:
-
-// collection if
+// Dart Collection: If Statement inside a Collection
 
 void main() {
+  print('Using If Statement inside a Collection');
+
   Map user = {
     'username': 'adnan@email.com',
     'admin': false,

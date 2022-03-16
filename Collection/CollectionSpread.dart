@@ -1,8 +1,8 @@
-// Dart Collection:
-
-// collection spread (...)
+// Dart Collection: Spread (...) Operator inside a Collection
 
 void main() {
+  print('Using Spread Operator inside a Collection');
+
   List moreAdmin = ['asif@email.com', 'abrar@email.com'];
 
   List admin = [

@@ -1,8 +1,8 @@
-// Dart Collection:
-
-// collection for
+// Dart Collection: For-In Loop inside a Collection
 
 void main() {
+  print('Using For-In Loop inside a Collection');
+
   List moreAdmin = ['asif@email.com', 'abrar@email.com'];
 
   List admin = [
