@@ -5,26 +5,26 @@
 //? Queries: Leave Questions
 //  ignore: todo
 //  TODO: Pending Tasks
-//  FIXME: Fix it Felix
 
 // Single Line Comments:
 // This is a Single Line Comment
+// Single line comments are also called statement comments
 
 /*
 Multiline comments:
 It's a Multi-Line Comment.
+Multi-line comments are also called block comments.
 */
 
 /**Document Comments 1:
  *[main] Function is entry point of Dart Program.
- *This is another way of writing document comments
+ *Below is another way of writing document comments
  */
 
 /// Document Comments 2:
-/// Is used for documentation purposes.
-/// Click [main] here to see highlighting it's position in the program.
+/// These are used for documentation purposes.
+/// Click [main] to see it highlighted in the program.
 /// or hover over [main] in the program and this comment will be shown.
-/// That's what document comments do.
 
 void main() {
   print('بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ');
