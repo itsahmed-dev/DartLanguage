@@ -1,7 +1,6 @@
 // Dart - Data Types: Strings
 
 void main() {
-  // Strings Data Type in Dart Programming Language.
   print('String Data Type in Dart\n');
 
   // Literal's Example
@@ -20,6 +19,7 @@ void main() {
       // with double quotes “”
       "String in Double Quotation Marks";
   print(doubleQ);
+
   print(''); // line-break
 
   // Problem with single quotes
@@ -52,6 +52,7 @@ void main() {
   print('Escape Character with n for Newline');
   String multilineEscape = 'This is line 1 \nThis is line 2';
   print(multilineEscape);
+
   print(''); // line-break
 
   // Example of a long string literal
@@ -74,7 +75,7 @@ using triple single quotes
   """;
   print(multilineString3);
 
-  // String Interpolation
+  //* String Interpolation
 
   String firstName = 'Muhammad ';
   String lastName = 'Ahmed';
@@ -97,14 +98,14 @@ using triple single quotes
   print('Interpolation of Math Expression');
   print("The sum of 5 and 3 equals ${5 + 3}.");
 
-  // Get the length of String using Concatenation
+  //* Get the length of String using Concatenation
   // .toString() is a method to convert int to String
   print('Character length of Last name in Unconventional Way is ' +
       lastName.length.toString());
 
-  // But in Dart it's convention to do it like this
+  //! But in Dart it's convention to do it like this
   print(
-      // so we do it like this
+      //* so we do it like this
       'Character length of Last name in Dart Way is ${lastName.length}');
 
   // Interpolation works on Strings and integers as well like so
@@ -113,7 +114,7 @@ using triple single quotes
   int age = 30;
   print('My name is $name and my age is $age');
 
-  // Adding Dollar Sign $ along with String Interpolation
+  //* Adding Dollar Sign $ along with String Interpolation
   print('String Interpolation for special characters');
   String dollarSign2 = "The value is \$${10.toString()} dollars.";
   print(dollarSign2);
@@ -132,6 +133,7 @@ using triple single quotes
   print('Without Raw String');
   String notRawString = "It's \na \tRaw String.";
   print(notRawString);
+
   print(''); // line-break
 
   print('String Concatenation\n');
@@ -155,4 +157,17 @@ using triple single quotes
       'concatenation'
       " works even over line breaks.";
   print(multiline);
+
+  print(''); //  Line-Break
+
+  String unicodeExample = 'Here is the rose emoji: \u{1F339}';
+  print(unicodeExample); // returns rose emoji
+
+  print(''); //  Line-Break
+
+  //* Literal Strings are Constant Values
+  String constant1 = 'Yes';
+  String constant2 = 'Yes';
+  print(constant1.hashCode);
+  print(constant2.hashCode);
 }

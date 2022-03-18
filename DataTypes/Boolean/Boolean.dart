@@ -1,7 +1,7 @@
 // Dart - Data Types: Boolean
 
 void main() {
-  // Possible Values
+  // Boolean Literals
   true;
   false;
 
@@ -19,4 +19,17 @@ void main() {
 
   bool expression = 10 < 5;
   print('The expression is : $expression');
+
+  int integer = 1;
+  String name = 'Ahmed';
+  String? programmer;
+  if (integer != 0) {
+    print('$integer is not zero');
+  }
+  if (name.isNotEmpty) {
+    print('$name is not empty');
+  }
+  if (programmer != null) {
+    print('$programmer is not null');
+  }
 }

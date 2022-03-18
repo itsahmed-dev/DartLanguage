@@ -1,15 +1,17 @@
 // Dart Programming - Operators
 
-// 'as' Operator for type casting
+// Type Casting Operator 'as'
 
 void main() {
-  num a = 10;
+  num number = 10;
+
   // type checking
-  print(a is num);
+  print(number is num);
+
   // type casting
-  a as int;
-  // int methods are available now
-  print(a.isEven);
-  print(a is String);
-  print((a as dynamic).toString().runtimeType);
+  number as int;
+  //* int methods are available now
+  print(number.isEven);
+  print(number is String);
+  print((number as dynamic).toString().runtimeType);
 }
