@@ -57,6 +57,20 @@ void main() {
 
   print(''); //  Line-Break
 
+  //* Flutterly Example
+  int j = 7;
+  int k = 2;
+
+  var c = j / k;
+  print(c);
+
+  var i = j ~/ k;
+  var r = j % k;
+  print('$j/$k is $i & remainder $r');
+  print('$i * $k + $r = $j');
+
+  print(''); //  Line-Break
+
   /// Augmented Assignment Operators
 
   print('::Augmented Assignment Operators::');
