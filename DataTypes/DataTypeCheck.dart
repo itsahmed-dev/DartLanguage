@@ -2,6 +2,8 @@
 
 // Data Type check with runtimeType and const keyword
 
+// ignore_for_file: unnecessary_type_check
+
 void main() {
   const aConstInt = 1;
   const aConstDouble = 1.1;

@@ -2,6 +2,8 @@
 
 // Collection-For Statement
 
+// ignore_for_file: dead_code
+
 void main() {
   const addYellow = false;
   const addGreen = true;

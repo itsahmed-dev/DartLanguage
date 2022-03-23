@@ -2,6 +2,8 @@
 
 // Type Test Operators 'is' or '!is'
 
+// ignore_for_file: unnecessary_type_check
+
 void main() {
   String name = 'Ahmed';
   int age = 30;

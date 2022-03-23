@@ -1,5 +1,7 @@
 // Dart - Exception Handling
 
+// ignore_for_file: deprecated_member_use
+
 void main() {
   // ON Clause
   print('on clause: ');
