@@ -1,4 +1,4 @@
-// Dart - Isolates
+// Dart - Asynchronous Programming: Isolates
 
 import 'dart:isolate';
 

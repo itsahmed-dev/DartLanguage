@@ -1,6 +1,4 @@
-// Dart Programming - Advanced Topics
-
-// Future
+// Dart - Asynchronous Programming: Future
 
 //*  Getting the result with async-await
 Future<void> main() async {
