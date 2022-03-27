@@ -2,12 +2,30 @@
 
 import 'dart:convert';
 
-void main() {
-  var rawJson = '{"url": "www.google.com", "id": 1}';
+class ImageModel {
+  int id;
+  String url;
 
-  var parsedJson = json.decode(rawJson);
+  ImageModel({required this.id, required this.url});
+}
+
+void main() {
+  String rawJson = '{"id": 1, "url": "www.google.com"}';
+
+  Map parsedJson = json.decode(rawJson);
 
   print(parsedJson);
-  print(parsedJson['url']);
+
+  print(''); //  Line-Break
+
   print(parsedJson['id']);
+  print(parsedJson['url']);
+
+  print(''); //  Line-Break
+
+  ImageModel imageModel =
+      ImageModel(id: parsedJson['id'], url: parsedJson['url']);
+
+  print(imageModel.id);
+  print(imageModel.url);
 }
